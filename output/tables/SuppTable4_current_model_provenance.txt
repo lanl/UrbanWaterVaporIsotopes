@@ -1,0 +1,13 @@
+Figure-2 CSV: output/tables/Figure_2_cityseason_results.csv
+Tree cache: output/cache/tree_93fd74465e8aec7e.pkl
+TROPOMI: source_data/TROPOMI_HDO_CLEAR_p05_quadratic_climatology.nc
+Settlement: source_data/PercentSettlementArea_regridded_to_TROPOMI_quadratic_climatology_0p05.nc
+Elevation: source_data/ETOPO_2022_v1_30s_N90W180_surface_resampled_to_TROPOMI_quadratic_climatology_p05.tif
+Land mask: source_data/landseamask_regridded_to_TROPOMI_quadratic_climatology_0p05_nearest.nc
+City metadata READ ONLY: source_data/top400_cities.csv
+City CSV SHA256: 48b6c8aefab8ae25d8a0764ce69a983c0f95e3a75d7dd56eb98fb792c5fd5c0b
+candidate_uid: city_key + latitude(6dp) + longitude(6dp), hashed with SHA256 and truncated to 12 characters
+Canonical base n: 623
+Max deltaD base reconstruction error: 3.5527136788e-15 permil
+Max H2O base reconstruction error: 3.5527136788e-15 percent
+Sensitivity cache: output/cache/SuppTable4_threshold_sensitivity/SuppTable4_points_FINAL_80e165dcbcbba002.pkl

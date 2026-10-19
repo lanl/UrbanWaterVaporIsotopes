@@ -1,0 +1,94 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Scenario</th>
+      <th>Changed thresholds</th>
+      <th>n</th>
+      <th>Overlap with base</th>
+      <th>Median H2O shift signed [abs.]</th>
+      <th>Median deltaD shift signed [abs.]</th>
+      <th>Same quadrant</th>
+      <th>Same regime</th>
+      <th>Median px urban/rural</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base</td>
+      <td>urban>=50; rural<=1; dist<=150; elev<=50; coast<=50</td>
+      <td>623</td>
+      <td>623/623 (100%)</td>
+      <td>+0.00% [0.00%]</td>
+      <td>+0.00‰ [0.00‰]</td>
+      <td>100%</td>
+      <td>100%</td>
+      <td>12/75</td>
+    </tr>
+    <tr>
+      <td>Stricter matching</td>
+      <td>dist<=100; elev<=30; coast<=30</td>
+      <td>411</td>
+      <td>411/623 (66%)</td>
+      <td>-0.20% [1.15%]</td>
+      <td>-0.23‰ [1.03‰]</td>
+      <td>79%</td>
+      <td>78%</td>
+      <td>13/33</td>
+    </tr>
+    <tr>
+      <td>Looser matching</td>
+      <td>dist<=200; elev<=100; coast<=100</td>
+      <td>725</td>
+      <td>623/623 (100%)</td>
+      <td>+0.55% [1.40%]</td>
+      <td>+0.35‰ [1.33‰]</td>
+      <td>73%</td>
+      <td>71%</td>
+      <td>12/272</td>
+    </tr>
+    <tr>
+      <td>Very rural controls</td>
+      <td>rural<=0.5</td>
+      <td>573</td>
+      <td>573/623 (92%)</td>
+      <td>+0.02% [0.32%]</td>
+      <td>+0.09‰ [0.32‰]</td>
+      <td>92%</td>
+      <td>91%</td>
+      <td>12/55</td>
+    </tr>
+    <tr>
+      <td>Expanded rural controls</td>
+      <td>rural<=2</td>
+      <td>663</td>
+      <td>623/623 (100%)</td>
+      <td>+0.02% [0.30%]</td>
+      <td>-0.11‰ [0.31‰]</td>
+      <td>91%</td>
+      <td>89%</td>
+      <td>12/98</td>
+    </tr>
+    <tr>
+      <td>Broader urban footprint</td>
+      <td>urban>=30</td>
+      <td>797</td>
+      <td>589/623 (95%)</td>
+      <td>+0.02% [0.50%]</td>
+      <td>+0.04‰ [0.56‰]</td>
+      <td>87%</td>
+      <td>84%</td>
+      <td>20/74</td>
+    </tr>
+    <tr>
+      <td>Stricter urban footprint</td>
+      <td>urban>=70</td>
+      <td>416</td>
+      <td>391/623 (63%)</td>
+      <td>+0.03% [0.43%]</td>
+      <td>-0.03‰ [0.63‰]</td>
+      <td>87%</td>
+      <td>85%</td>
+      <td>9/76</td>
+    </tr>
+  </tbody>
+</table>

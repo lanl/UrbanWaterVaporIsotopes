@@ -1,0 +1,5 @@
+Group	n city-seasons	Same quadrant median [IQR]	Same quadrant >=80%	Same regime median [IQR]	Same regime >=80%	Median pixels urban/rural	Median blocks urban/rural
+R1	232	93% [69-100%]	64%	94% [74-100%]	69%	13/86	3/21
+R2	240	94% [75-100%]	69%	90% [73-99%]	65%	12/71	3/21
+R3	127	98% [87-100%]	81%	84% [70-96%]	57%	12/52	2/20
+outside/unsupported	24	100% [90-100%]	88%	93% [56-100%]	62%	13/140	2/35

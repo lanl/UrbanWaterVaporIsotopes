@@ -1,0 +1,6 @@
+Perturbation,Water-inventory term,Physical role
+FT entrainment,internal transfer FT -> BL,Internal vertical redistribution; cancels from the full-column budget
+Low-level convergence,BL-like lateral fill,Lateral import of rural-BL-like air; can change total-column water
+ET contrast,Delta q_ET,Signed urban-rural surface-source residual
+Managed-water contrast,Delta q_util,Signed urban-rural anthropogenic-water residual
+Combustion water,Delta q_comb,Non-negative urban combustion-water contribution

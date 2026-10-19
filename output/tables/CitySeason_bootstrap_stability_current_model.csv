@@ -1,0 +1,624 @@
+season,city_key,name,deltaD,deltaH2O,quadrant,regime,same_quadrant_fraction,same_regime_fraction,n_urban_pixels,n_rural_pixels,n_urban_blocks,n_rural_blocks,bootstrap_mode,n_boot_requested,n_boot_valid
+MAM,Shanghai_CN,Shanghai,1.2260465433128616,-7.297624032390786,drier-enriched,R2,0.819,0.553,363,53,28,25,spatial_block,1000,1000
+MAM,Chengdu_CN,Chengdu,-2.00388598987702,7.205069108654495,wetter-depleted,R2,0.966,0.891,49,70,5,17,spatial_block,1000,1000
+MAM,Lahore_PK,Lahore,-1.1682735839768128,-4.417299909064647,drier-depleted,R2,0.99,0.998,14,77,2,26,pixel_fallback,1000,1000
+MAM,Mumbai_IN,Mumbai,-0.3645837203207236,4.203799365388673,wetter-depleted,R1,0.629,0.796,6,68,1,21,pixel_fallback,1000,1000
+MAM,Sao_Paulo_BR,Sao Paulo,-3.2608650201893,-6.156047783377017,drier-depleted,R2,0.969,0.947,54,142,8,40,spatial_block,1000,1000
+MAM,Mexico_City_MX,Mexico City,0.0522740372156818,-3.355213296801349,drier-enriched,R2,0.335,0.729,52,24,6,11,spatial_block,1000,1000
+MAM,Karachi_PK,Karachi,-3.7360045174864496,2.316641164834666,wetter-depleted,R2,0.985,0.996,19,440,4,40,pixel_fallback,1000,1000
+MAM,Tianjin_CN,Tianjin,-3.207353004910999,0.713979433822226,wetter-depleted,R2,0.711,0.695,33,43,5,19,spatial_block,1000,1000
+MAM,Delhi_IN,Delhi,2.31311620764761,-3.8644589781054353,drier-enriched,R3,0.805,0.46,40,113,6,24,spatial_block,1000,1000
+MAM,Wuhan_CN,Wuhan,-0.1284982369804197,-7.316532103704696,drier-depleted,R2,0.517,0.766,25,15,5,8,spatial_block,1000,1000
+MAM,Moscow_RU,Moscow,14.10633107556788,5.219760419078013,wetter-enriched,outside/unsupported,0.999,0.385,65,321,6,45,spatial_block,1000,1000
+MAM,Dhaka_BD,Dhaka,1.0532994253103,-1.84666440538962,drier-enriched,R2,0.904,0.963,13,61,3,25,pixel_fallback,1000,1000
+MAM,Seoul_KR,Seoul,6.024672945158613,1.3308925327253325,wetter-enriched,R3,0.992,0.363,30,121,4,22,pixel_fallback,1000,1000
+MAM,Cairo_EG,Cairo,8.652584065493926,1.3369487914722922,wetter-enriched,R1,0.706,0.492,24,214,5,36,spatial_block,1000,1000
+MAM,Johannesburg_ZA,Johannesburg,-0.3136262004510968,-2.3504919713833763,drier-depleted,R2,0.532,0.783,50,27,7,11,spatial_block,1000,1000
+MAM,Nanjing_CN,Nanjing,8.716843504913157,-0.4801064026580382,drier-enriched,R3,0.77,0.755,31,37,3,16,pixel_fallback,1000,1000
+MAM,Hangzhou_CN,Hangzhou,8.319360326155078,-4.881178122356944,drier-enriched,R3,0.958,0.964,90,28,12,12,spatial_block,1000,1000
+MAM,London_GB,London,-7.105391435439884,-4.01849536406473,drier-depleted,R2,1.0,1.0,71,41,7,19,spatial_block,1000,1000
+MAM,New_York_City_US,New York City,21.96516706711637,9.67430311962304,wetter-enriched,outside/unsupported,0.999,0.916,86,82,10,13,spatial_block,1000,1000
+MAM,Bengaluru_IN,Bengaluru,-5.2080001511094025,-1.987547524546699,drier-depleted,R2,0.955,1.0,17,76,4,22,pixel_fallback,1000,1000
+MAM,Lima_PE,Lima,-5.467722281168022,2.2691561537657723,wetter-depleted,R2,0.844,0.991,10,18,3,11,pixel_fallback,1000,1000
+MAM,Chongqing_CN,Chongqing,-2.576460455194592,-0.3308529563892959,drier-depleted,R1,0.63,0.445,14,141,4,34,pixel_fallback,1000,1000
+MAM,Baghdad_IQ,Baghdad,4.28040143297585,3.778966831090819,wetter-enriched,R1,1.0,1.0,18,593,2,52,pixel_fallback,1000,1000
+MAM,Tehran_IR,Tehran,-0.972598071532616,1.06875765348311,wetter-depleted,R1,0.546,0.775,25,52,4,18,pixel_fallback,1000,1000
+MAM,Hyderabad_IN,Hyderabad,-5.639427609525228,-5.329416564706854,drier-depleted,R2,1.0,1.0,19,86,4,26,pixel_fallback,1000,1000
+MAM,Rio_de_Janeiro_BR,Rio de Janeiro,0.3206035737134272,-4.6556158062393065,drier-enriched,R2,0.649,0.992,23,89,4,22,pixel_fallback,1000,1000
+MAM,Ahmedabad_IN,Ahmedabad,0.5455646440068307,3.38830747976632,wetter-enriched,R1,0.967,1.0,11,242,3,39,pixel_fallback,1000,1000
+MAM,Sydney_AU,Sydney,6.183625148139299,-0.5231421415649204,drier-enriched,R3,0.552,0.524,51,61,7,15,spatial_block,1000,1000
+MAM,Melbourne_AU,Melbourne,0.1629652796068228,2.410868426122542,wetter-enriched,R1,0.537,0.953,62,134,7,31,spatial_block,1000,1000
+MAM,Saint_Petersburg_RU,Saint Petersburg,15.77735066642174,2.268825793962794,wetter-enriched,outside/unsupported,1.0,0.945,33,1760,3,94,pixel_fallback,1000,1000
+MAM,Harbin_CN,Harbin,5.494114148172344,-3.629623285716305,drier-enriched,R3,1.0,0.995,17,40,4,20,pixel_fallback,1000,1000
+MAM,Bangkok_TH,Bangkok,8.928214934985306,-3.014383808044211,drier-enriched,R3,0.975,0.917,83,10,11,6,spatial_block,1000,1000
+MAM,Hefei_CN,Hefei,4.395544958053051,1.0326786270734598,wetter-enriched,R1,0.932,0.614,14,25,3,6,pixel_fallback,1000,1000
+MAM,Kano_NG,Kano,3.65563816716562,8.879250096054786,wetter-enriched,R1,1.0,1.0,9,95,2,21,pixel_fallback,1000,1000
+MAM,Santiago_CL,Santiago,-2.0541439983582848,3.731900432900032,wetter-depleted,R2,0.978,0.756,24,30,4,17,pixel_fallback,1000,1000
+MAM,Peshawar_PK,Peshawar,-15.635322029131672,-10.809620022224651,drier-depleted,R3,1.0,0.711,6,95,1,18,pixel_fallback,1000,1000
+MAM,Changchun_CN,Changchun,10.676265459998431,-10.645954880258213,drier-enriched,R3,1.0,0.894,20,85,3,19,pixel_fallback,1000,1000
+MAM,Jeddah_SA,Jeddah,-0.5314550102164475,-0.1495066252255436,drier-depleted,R1,0.53,0.994,12,190,3,21,pixel_fallback,1000,1000
+MAM,Chennai_IN,Chennai,-7.645276281888712,2.1388628963823377,wetter-depleted,R2,1.0,1.0,16,145,3,24,pixel_fallback,1000,1000
+MAM,Kolkata_IN,Kolkata,2.2212607297323217,-1.7510139420949289,drier-enriched,R2,1.0,0.927,20,94,3,21,pixel_fallback,1000,1000
+MAM,Yangon_MM,Yangon,4.209383948534992,-0.9603457153162612,drier-enriched,R3,1.0,0.918,12,731,2,85,pixel_fallback,1000,1000
+MAM,Kabul_AF,Kabul,7.840239722224197,12.191916230915751,wetter-enriched,R1,0.999,0.999,7,29,2,23,pixel_fallback,1000,1000
+MAM,Zhengzhou_CN,Zhengzhou,3.2122255574113296,4.880047425421012,wetter-enriched,R1,1.0,1.0,27,11,4,6,pixel_fallback,1000,1000
+MAM,Bamako_ML,Bamako,1.6477117869301168,1.3426892517270428,wetter-enriched,R1,0.819,0.829,8,575,1,59,pixel_fallback,1000,1000
+MAM,Riyadh_SA,Riyadh,4.83752797560453,2.847597465030677,wetter-enriched,R1,1.0,1.0,20,300,4,43,pixel_fallback,1000,1000
+MAM,Addis_Ababa_ET,Addis Ababa,-8.356107025019924,-6.974018333743366,drier-depleted,R2,0.987,0.889,6,24,2,15,pixel_fallback,1000,1000
+MAM,Kunming_CN,Kunming,2.4878594865364363,-4.1441567990181465,drier-enriched,R3,0.93,0.565,18,43,3,23,pixel_fallback,1000,1000
+MAM,Nanning_CN,Nanning,2.2075841809054424,-0.6810473458462671,drier-enriched,R2,0.456,0.377,6,12,2,11,pixel_fallback,1000,1000
+MAM,Los_Angeles_US,Los Angeles,-2.7036348904418617,3.2441645987805057,wetter-depleted,R2,0.964,0.843,164,11,17,7,spatial_block,1000,1000
+MAM,Faisalabad_PK,Faisalabad,-1.2912335471124834,-0.8292605093187447,drier-depleted,R1,0.791,0.815,5,145,2,42,pixel_fallback,1000,1000
+MAM,Fuzhou_CN,Fuzhou,1.82142359178124,-5.426064547100085,drier-enriched,R3,0.781,0.501,11,12,3,6,pixel_fallback,1000,1000
+MAM,Ningbo_CN,Ningbo,-2.647709701026457,-8.692401699508812,drier-depleted,R2,0.925,0.903,26,19,4,11,pixel_fallback,1000,1000
+MAM,Casablanca_MA,Casablanca,2.792359659978217,-1.918384776764393,drier-enriched,R2,1.0,0.791,7,74,2,19,pixel_fallback,1000,1000
+MAM,Ankara_TR,Ankara,-3.93025778111425,-6.372582494187087,drier-depleted,R2,1.0,1.0,15,207,4,50,pixel_fallback,1000,1000
+MAM,Berlin_DE,Berlin,4.878342787184096,4.722185995074817,wetter-enriched,R1,1.0,1.0,28,359,4,63,pixel_fallback,1000,1000
+MAM,Tangshan_CN,Tangshan,-5.804511967540321,2.6037583527017687,wetter-depleted,R2,0.992,1.0,12,30,2,17,pixel_fallback,1000,1000
+MAM,Rawalpindi_PK,Rawalpindi,-1.3089142526298758,-1.5135021867791063,drier-depleted,R1,0.95,0.851,13,73,3,33,pixel_fallback,1000,1000
+MAM,Durban_ZA,Durban,2.047078118690223,7.151250856447877,wetter-enriched,R1,0.989,1.0,21,32,4,12,pixel_fallback,1000,1000
+MAM,Madrid_ES,Madrid,-0.3197514955926692,0.3827198729290407,wetter-depleted,R1,0.54,1.0,17,135,3,33,pixel_fallback,1000,1000
+MAM,Pyongyang_KP,Pyongyang,8.033446321037218,2.3153102193646133,wetter-enriched,R1,0.987,0.791,5,264,1,52,pixel_fallback,1000,1000
+MAM,Pune_IN,Pune,0.2612787115618857,-1.681167520359119,drier-enriched,R2,0.626,0.611,16,41,3,17,pixel_fallback,1000,1000
+MAM,Bursa_TR,Bursa,13.056716791271356,9.607435328724296,wetter-enriched,R1,1.0,0.999,7,63,2,23,pixel_fallback,1000,1000
+MAM,Changsha_CN,Changsha,-2.079778636453625,-1.795985062259361,drier-depleted,R1,0.868,0.479,21,36,3,13,pixel_fallback,1000,1000
+MAM,Quezon_City_PH,Quezon City,1.414642818489881,-4.932762465598788,drier-enriched,R2,0.911,0.573,21,39,4,21,pixel_fallback,1000,1000
+MAM,Jaipur_IN,Jaipur,0.404422763896676,1.5082162988831165,wetter-enriched,R1,0.764,0.999,9,107,2,27,pixel_fallback,1000,1000
+MAM,Guiyang_CN,Guiyang,-11.084112419316996,-0.2501559188446341,drier-depleted,R2,0.532,0.899,7,36,2,17,pixel_fallback,1000,1000
+MAM,UEruemqi_CN,UEruemqi,-3.399473124605919,-8.76884018377171,drier-depleted,R2,0.992,0.851,13,29,3,12,pixel_fallback,1000,1000
+MAM,Kyiv_UA,Kyiv,9.999144908790695,-1.3715817536536925,drier-enriched,R3,0.961,0.837,16,338,2,48,pixel_fallback,1000,1000
+MAM,Huizhou_CN,Huizhou,7.779106264718536,-18.245062475257324,drier-enriched,R3,1.0,0.795,5,20,2,11,pixel_fallback,1000,1000
+MAM,Buenos_Aires_AR,Buenos Aires,2.2789436917150283,0.0618381978749365,wetter-enriched,R2,0.547,0.712,65,771,7,62,spatial_block,1000,1000
+MAM,Kanpur_IN,Kanpur,0.4930940735591775,-0.475890088052455,drier-enriched,R1,0.335,0.764,6,664,2,55,pixel_fallback,1000,1000
+MAM,Toronto_CA,Toronto,18.3323631243951,-0.7512740511387028,drier-enriched,outside/unsupported,0.641,0.806,63,117,8,29,spatial_block,1000,1000
+MAM,Brisbane_AU,Brisbane,-0.2496694922704136,5.948142875693193,wetter-depleted,R1,0.48,0.668,27,78,5,23,spatial_block,1000,1000
+MAM,Luanda_AO,Luanda,1.7353262998357906,4.764282597085664,wetter-enriched,R1,0.93,0.95,10,85,3,17,pixel_fallback,1000,1000
+MAM,Osaka_JP,Osaka,8.422149336627541,0.5897528642702861,wetter-enriched,R3,0.552,0.52,74,22,10,11,spatial_block,1000,1000
+MAM,Belo_Horizonte_BR,Belo Horizonte,3.847288548349781,-1.8153093158426676,drier-enriched,R3,0.826,0.579,12,102,3,32,pixel_fallback,1000,1000
+MAM,Chicago_US,Chicago,-8.667910957424112,-11.566450248283124,drier-depleted,R3,0.998,0.754,104,148,11,28,spatial_block,1000,1000
+MAM,Huai_an_CN,Huai'an,-0.3808740596732889,2.687051845384317,wetter-depleted,R1,0.611,0.802,12,94,2,29,pixel_fallback,1000,1000
+MAM,Lucknow_IN,Lucknow,-2.979148751701416,-0.9136374052547748,drier-depleted,R2,0.989,0.694,7,563,2,57,pixel_fallback,1000,1000
+MAM,Ouagadougou_BF,Ouagadougou,-2.5199541916920225,-1.1764015308049762,drier-depleted,R1,0.982,0.709,11,704,2,62,pixel_fallback,1000,1000
+MAM,Nagpur_IN,Nagpur,-2.184353651214636,-1.2890525506933248,drier-depleted,R1,0.87,0.598,6,192,1,46,pixel_fallback,1000,1000
+MAM,Fortaleza_BR,Fortaleza,1.8273234911791576,-1.77712179737815,drier-enriched,R2,0.941,0.716,5,24,1,11,pixel_fallback,1000,1000
+MAM,Perth_AU,Perth,0.295496800666541,0.8997673303387764,wetter-enriched,R1,0.598,0.98,30,156,5,20,spatial_block,1000,1000
+MAM,Nanchang_CN,Nanchang,7.336823931472182,7.107751072063541,wetter-enriched,R1,1.0,1.0,17,96,3,23,pixel_fallback,1000,1000
+MAM,Baku_AZ,Baku,1.6637529952647867,-8.249661105124892,drier-enriched,R3,0.913,0.708,6,38,3,9,pixel_fallback,1000,1000
+MAM,Hohhot_CN,Hohhot,-17.249709265774328,-9.537657101753195,drier-depleted,R3,1.0,0.579,10,45,2,15,pixel_fallback,1000,1000
+MAM,Nagoya_JP,Nagoya,-1.1872282001495194,-7.005762156349932,drier-depleted,R2,0.754,0.833,115,15,10,8,spatial_block,1000,1000
+MAM,Rome_IT,Rome,8.836973193522027,8.453512574709018,wetter-enriched,R1,1.0,1.0,15,22,2,6,pixel_fallback,1000,1000
+MAM,Houston_US,Houston,0.7137903502476206,1.368233889724472,wetter-enriched,R1,0.689,0.97,69,637,9,55,spatial_block,1000,1000
+MAM,Mashhad_IR,Mashhad,5.831216725664348,1.0943265104166056,wetter-enriched,R3,0.742,0.419,7,31,1,15,pixel_fallback,1000,1000
+MAM,Nantong_CN,Nantong,-2.432268032257298,-4.1412118624361804,drier-depleted,R2,0.984,0.974,99,50,13,23,spatial_block,1000,1000
+MAM,Lusaka_ZM,Lusaka,-10.211784249152371,-3.4458967759964745,drier-depleted,R2,0.99,0.999,11,22,4,9,pixel_fallback,1000,1000
+MAM,Multan_PK,Multan,2.968787431933876,2.690127481889941,wetter-enriched,R1,0.999,1.0,6,495,2,52,pixel_fallback,1000,1000
+MAM,Baotou_CN,Baotou,-5.5325070352960495,-8.013971157418155,drier-depleted,R2,1.0,0.992,17,76,4,11,pixel_fallback,1000,1000
+MAM,Paris_FR,Paris,10.351691643566738,5.003394045834897,wetter-enriched,R1,0.978,0.909,60,12,6,7,spatial_block,1000,1000
+MAM,Coimbatore_IN,Coimbatore,0.7197594166217556,6.110579545412923,wetter-enriched,R1,0.721,0.928,7,27,2,18,pixel_fallback,1000,1000
+MAM,Pretoria_ZA,Pretoria,2.665267625484546,2.395257033751773,wetter-enriched,R1,0.982,0.969,11,54,2,13,pixel_fallback,1000,1000
+MAM,Cordoba_AR,Cordoba,0.881586312401339,2.1903541801639625,wetter-enriched,R1,0.981,1.0,11,119,2,20,pixel_fallback,1000,1000
+MAM,Aleppo_SY,Aleppo,9.590203771731808,4.9289328396251575,wetter-enriched,R1,1.0,0.996,5,39,2,17,pixel_fallback,1000,1000
+MAM,Weifang_CN,Weifang,4.448016672972216,-0.2256429790915624,drier-enriched,R3,0.625,0.543,10,60,2,20,pixel_fallback,1000,1000
+MAM,La_Paz_BO,La Paz,9.29116447368918,1.3789509024350557,wetter-enriched,R1,0.7,0.545,5,249,1,39,pixel_fallback,1000,1000
+MAM,Tashkent_UZ,Tashkent,5.742115650161424,7.0705746916716485,wetter-enriched,R1,1.0,1.0,23,102,3,15,pixel_fallback,1000,1000
+MAM,Almaty_KZ,Almaty,-4.502603644322363,0.8372448964410456,wetter-depleted,R2,0.753,0.994,14,31,3,11,pixel_fallback,1000,1000
+MAM,Khartoum_SD,Khartoum,9.05675596734153,5.719112712861886,wetter-enriched,R1,1.0,1.0,18,552,4,60,pixel_fallback,1000,1000
+MAM,Hamburg_DE,Hamburg,2.2914664952713792,2.294271728202131,wetter-enriched,R1,0.98,0.988,15,109,2,46,pixel_fallback,1000,1000
+MAM,Sapporo_JP,Sapporo,-6.167538963343901,-2.1264478112502045,drier-depleted,R2,0.788,0.895,11,30,2,14,pixel_fallback,1000,1000
+MAM,Curitiba_BR,Curitiba,-2.284653817320759,2.7094595916778528,wetter-depleted,R2,0.948,0.778,17,238,2,39,pixel_fallback,1000,1000
+MAM,Tijuana_MX,Tijuana,13.626056384103409,12.693027771615196,wetter-enriched,R1,1.0,1.0,29,29,6,15,spatial_block,1000,1000
+MAM,Jieyang_CN,Jieyang,7.701636504049702,-9.339909517064408,drier-enriched,R3,0.921,0.909,6,10,2,8,pixel_fallback,1000,1000
+MAM,Jilin_CN,Jilin,0.9555123139016928,5.83456989673692,wetter-enriched,R1,0.653,0.844,9,34,1,10,pixel_fallback,1000,1000
+MAM,Bucharest_RO,Bucharest,0.309252315509184,-1.4680279381942427,drier-enriched,R1,0.749,0.486,13,165,3,35,pixel_fallback,1000,1000
+MAM,Kaduna_NG,Kaduna,1.2112898282395008,-1.2783297748946816,drier-enriched,R2,0.598,0.569,6,212,3,35,pixel_fallback,1000,1000
+MAM,Santa_Cruz_de_la_Sierra_BO,Santa Cruz de la Sierra,3.916908940417329,-9.28781977712403,drier-enriched,R3,1.0,1.0,8,146,3,17,pixel_fallback,1000,1000
+MAM,Sharjah_AE,Sharjah,1.3293974162704671,3.01280625358763,wetter-enriched,R1,0.977,1.0,12,98,3,26,pixel_fallback,1000,1000
+MAM,Montreal_CA,Montreal,14.768394731057498,-0.8075921139312334,drier-enriched,outside/unsupported,0.831,0.751,34,145,5,35,spatial_block,1000,1000
+MAM,Maracaibo_VE,Maracaibo,4.718397402045738,1.4364458700130038,wetter-enriched,R1,0.955,0.744,7,365,1,53,pixel_fallback,1000,1000
+MAM,Minsk_BY,Minsk,10.453009571275146,-0.4654681653512288,drier-enriched,R3,0.709,0.7,12,634,2,64,pixel_fallback,1000,1000
+MAM,Budapest_HU,Budapest,-9.092339560319118,-9.546067038040036,drier-depleted,R2,1.0,0.908,20,292,3,45,pixel_fallback,1000,1000
+MAM,Warsaw_PL,Warsaw,1.430745959817898,2.6996777859285395,wetter-enriched,R1,0.844,0.996,21,64,2,24,pixel_fallback,1000,1000
+MAM,Vienna_AT,Vienna,0.6385598197099114,4.709326040814977,wetter-enriched,R1,0.664,0.907,12,25,1,12,pixel_fallback,1000,1000
+MAM,Phoenix_US,Phoenix,2.9604444550653,-0.6997392515092032,drier-enriched,R2,0.936,0.903,71,83,8,15,spatial_block,1000,1000
+MAM,Ludhiana_IN,Ludhiana,-5.300208420865488,-0.9813642816686116,drier-depleted,R2,0.842,0.987,6,11,2,5,pixel_fallback,1000,1000
+MAM,Yancheng_CN,Yancheng,3.790206605734454,2.7916126911758594,wetter-enriched,R1,0.998,0.992,14,75,3,27,pixel_fallback,1000,1000
+MAM,Novosibirsk_RU,Novosibirsk,25.41846440210577,14.59985390170623,wetter-enriched,outside/unsupported,1.0,1.0,13,752,2,47,pixel_fallback,1000,1000
+MAM,Fukuoka_JP,Fukuoka,-11.766480863140629,-8.741274730815897,drier-depleted,R2,1.0,0.894,9,11,2,8,pixel_fallback,1000,1000
+MAM,Taizhou_CN,Taizhou,3.2927469151943285,-0.1616862062577404,drier-enriched,R2,0.596,0.602,9,38,3,12,pixel_fallback,1000,1000
+MAM,Daqing_CN,Daqing,1.5733219746380769,2.031217749728059,wetter-enriched,R1,0.853,0.933,7,407,1,49,pixel_fallback,1000,1000
+MAM,Santiago_de_Queretaro_MX,Santiago de Queretaro,-3.818469880748552,13.390738389382417,wetter-depleted,R2,0.983,0.983,6,36,3,21,pixel_fallback,1000,1000
+MAM,Yangzhou_CN,Yangzhou,0.2509574870346398,-2.838453825582777,drier-enriched,R2,0.581,0.887,15,43,3,19,pixel_fallback,1000,1000
+MAM,Leon_de_los_Aldama_MX,Leon de los Aldama,4.77153641089663,11.830593001685823,wetter-enriched,R1,1.0,1.0,5,74,2,19,pixel_fallback,1000,1000
+MAM,Philadelphia_US,Philadelphia,11.424457301388856,4.849057870682443,wetter-enriched,R1,0.861,0.592,40,51,5,12,spatial_block,1000,1000
+MAM,Damascus_SY,Damascus,2.895162353478355,-3.880033048719196,drier-enriched,R3,0.991,0.733,6,76,2,20,pixel_fallback,1000,1000
+MAM,Auckland_NZ,Auckland,0.7434548084399069,1.0435506626382238,wetter-enriched,R1,0.781,0.993,16,398,3,51,pixel_fallback,1000,1000
+MAM,Isfahan_IR,Isfahan,-21.07702992409236,3.88936045883097,wetter-depleted,outside/unsupported,1.0,0.99,7,129,1,31,pixel_fallback,1000,1000
+MAM,Astana_KZ,Astana,-7.3890239080705555,-4.387937337559672,drier-depleted,R2,1.0,1.0,6,1117,3,62,pixel_fallback,1000,1000
+MAM,Harare_ZW,Harare,-5.724642489892204,-7.468890474936829,drier-depleted,R2,1.0,1.0,12,69,4,21,pixel_fallback,1000,1000
+MAM,Goiania_BR,Goiania,1.917516588976412,2.355484167124879,wetter-enriched,R1,0.985,0.957,6,95,3,22,pixel_fallback,1000,1000
+MAM,San_Antonio_US,San Antonio,-3.413958819485316,-0.5655855972515349,drier-depleted,R2,0.688,0.759,31,115,5,25,spatial_block,1000,1000
+MAM,Stockholm_SE,Stockholm,7.422670492984707,-2.2442301971709924,drier-enriched,R3,1.0,0.952,11,1085,2,58,pixel_fallback,1000,1000
+MAM,Ciudad_Juarez_MX,Ciudad Juarez,-5.360187352984326,-2.649887583791313,drier-depleted,R2,1.0,0.998,15,67,2,13,pixel_fallback,1000,1000
+MAM,Yekaterinburg_RU,Yekaterinburg,31.816511510986345,28.759377933694243,wetter-enriched,R1,1.0,0.351,10,368,3,34,pixel_fallback,1000,1000
+MAM,Porto_Alegre_BR,Porto Alegre,-3.20285180730869,-3.1402039881799912,drier-depleted,R2,0.995,0.815,7,521,2,54,pixel_fallback,1000,1000
+MAM,Yinchuan_CN,Yinchuan,28.733960657159656,10.55255998062294,wetter-enriched,outside/unsupported,1.0,1.0,6,107,1,17,pixel_fallback,1000,1000
+MAM,Asuncion_PY,Asuncion,8.11987466987648,3.1294075214782278,wetter-enriched,R1,1.0,0.925,12,577,2,55,pixel_fallback,1000,1000
+MAM,Zapopan_MX,Zapopan,-2.8189530977116704,-0.6077090714818221,drier-depleted,R2,0.626,0.584,20,59,4,34,pixel_fallback,1000,1000
+MAM,Adelaide_AU,Adelaide,3.017572341634206,1.719076850385246,wetter-enriched,R1,0.983,0.819,21,446,2,56,pixel_fallback,1000,1000
+MAM,Cixi_CN,Cixi,9.879524457629032,-1.857521330439015,drier-enriched,R3,0.831,0.789,15,30,3,15,pixel_fallback,1000,1000
+MAM,Kayseri_TR,Kayseri,-2.598832932994896,-3.840130839792398,drier-depleted,R2,0.999,0.97,5,149,2,47,pixel_fallback,1000,1000
+MAM,Kaifeng_CN,Kaifeng,-1.882505817406468,4.048987705667726,wetter-depleted,R2,0.856,0.627,6,11,3,6,pixel_fallback,1000,1000
+MAM,Karaj_IR,Karaj,-3.99551747572184,-0.2208652226434167,drier-depleted,R2,0.539,0.865,5,37,1,17,pixel_fallback,1000,1000
+MAM,Kathmandu_NP,Kathmandu,-7.8202574511505105,-9.68649250841676,drier-depleted,R2,0.999,0.628,5,30,1,19,pixel_fallback,1000,1000
+MAM,Baoji_CN,Baoji,-3.179948843445729,-11.91380962430024,drier-depleted,R3,0.976,0.744,5,10,2,5,pixel_fallback,1000,1000
+MAM,Suqian_CN,Suqian,-1.1448434109057644,1.6352041665045718,wetter-depleted,R1,0.692,0.78,5,65,2,21,pixel_fallback,1000,1000
+MAM,Liuzhou_CN,Liuzhou,-2.0620414700813257,-4.888909189528977,drier-depleted,R2,0.995,0.932,7,15,2,10,pixel_fallback,1000,1000
+MAM,Konya_TR,Konya,5.291998362415228,-1.8560327693312484,drier-enriched,R3,1.0,0.947,8,358,2,45,pixel_fallback,1000,1000
+MAM,Agra_IN,Agra,-2.7981180769356517,-2.573317775178602,drier-depleted,R2,1.0,0.736,5,628,2,78,pixel_fallback,1000,1000
+MAM,Tabriz_IR,Tabriz,-1.685405491330016,1.476260404481878,wetter-depleted,R1,0.746,0.605,5,62,1,34,pixel_fallback,1000,1000
+MAM,Kharkiv_UA,Kharkiv,3.847738453926553,2.5137075746058013,wetter-enriched,R1,0.999,0.994,11,681,2,70,pixel_fallback,1000,1000
+MAM,Gwangju_KR,Gwangju,-2.247681902083912,-4.644184085741439,drier-depleted,R2,0.967,0.939,6,23,1,11,pixel_fallback,1000,1000
+MAM,N_Djamena_TD,N'Djamena,5.937953300416993,6.78652559510074,wetter-enriched,R1,1.0,1.0,5,967,2,67,pixel_fallback,1000,1000
+MAM,Antananarivo_MG,Antananarivo,-8.705500264686407,0.762358765212717,wetter-depleted,R2,0.752,1.0,5,58,1,20,pixel_fallback,1000,1000
+MAM,Jamshedpur_IN,Jamshedpur,3.7038288478543535,0.0520692420279266,wetter-enriched,R2,0.544,0.566,6,80,2,18,pixel_fallback,1000,1000
+MAM,Dallas_US,Dallas,4.47208770054894,7.679351724743455,wetter-enriched,R1,1.0,1.0,46,325,6,39,spatial_block,1000,1000
+MAM,Calgary_CA,Calgary,-0.1659150678777337,-5.35469503795282,drier-depleted,R2,0.568,1.0,15,125,3,18,pixel_fallback,1000,1000
+MAM,Amman_JO,Amman,8.969335687678125,6.330891523839958,wetter-enriched,R1,1.0,1.0,12,55,2,20,pixel_fallback,1000,1000
+MAM,Belgrade_RS,Belgrade,-2.8697309275717657,-4.386935769769167,drier-depleted,R2,1.0,0.99,5,61,1,24,pixel_fallback,1000,1000
+MAM,Nizhniy_Novgorod_RU,Nizhniy Novgorod,24.625001911504228,21.201511358264597,wetter-enriched,outside/unsupported,1.0,0.187,12,696,2,58,pixel_fallback,1000,1000
+JJA,Shanghai_CN,Shanghai,6.738936843195944,-10.455766908675017,drier-enriched,R3,0.999,0.989,103,33,24,19,spatial_block,1000,1000
+JJA,Kinshasa_CD,Kinshasa,2.918633901205752,4.17027425111194,wetter-enriched,R1,1.0,1.0,13,80,4,20,pixel_fallback,1000,1000
+JJA,Lahore_PK,Lahore,12.0318824138931,-10.34219427949336,drier-enriched,R3,1.0,0.744,9,73,2,26,pixel_fallback,1000,1000
+JJA,Sao_Paulo_BR,Sao Paulo,-8.460065433194757,-5.145486640319136,drier-depleted,R2,1.0,1.0,54,143,8,40,spatial_block,1000,1000
+JJA,Mexico_City_MX,Mexico City,-4.632879821689357,5.929655579261695,wetter-depleted,R2,0.989,0.99,25,14,3,9,pixel_fallback,1000,1000
+JJA,Tianjin_CN,Tianjin,-2.711412880117706,-6.945837851225498,drier-depleted,R2,0.971,0.99,33,43,5,19,spatial_block,1000,1000
+JJA,Moscow_RU,Moscow,13.64272213792583,-6.052481425023891,drier-enriched,outside/unsupported,1.0,0.578,65,224,6,45,spatial_block,1000,1000
+JJA,Cairo_EG,Cairo,0.2320436209301419,-1.1544453492425968,drier-enriched,R1,0.307,0.497,24,214,5,36,spatial_block,1000,1000
+JJA,Johannesburg_ZA,Johannesburg,2.265402051226601,-2.74720921269104,drier-enriched,R2,0.885,0.636,50,27,7,11,spatial_block,1000,1000
+JJA,Hangzhou_CN,Hangzhou,7.1143275358146525,-5.2443332904161934,drier-enriched,R3,0.949,0.891,37,10,6,7,spatial_block,1000,1000
+JJA,London_GB,London,-4.081195412041893,2.482310271049309,wetter-depleted,R2,0.988,0.967,69,41,7,19,spatial_block,1000,1000
+JJA,New_York_City_US,New York City,4.144954399683456,-2.245126269242665,drier-enriched,R3,0.713,0.589,84,14,10,7,spatial_block,1000,1000
+JJA,Jakarta_ID,Jakarta,4.606091486262784,0.834785500994965,wetter-enriched,R1,0.637,0.551,53,22,6,11,spatial_block,1000,1000
+JJA,Lima_PE,Lima,-3.537731831125427,1.6590935011945498,wetter-depleted,R2,0.795,0.922,10,18,3,11,pixel_fallback,1000,1000
+JJA,Baghdad_IQ,Baghdad,-0.2313660753268038,2.257547203864261,wetter-depleted,R1,0.68,0.996,18,593,2,52,pixel_fallback,1000,1000
+JJA,Tehran_IR,Tehran,7.715134019904468,-1.9847154934204772,drier-enriched,R3,0.919,0.903,25,52,4,18,pixel_fallback,1000,1000
+JJA,Rio_de_Janeiro_BR,Rio de Janeiro,-1.1825666660278529,-0.0483572192576693,drier-depleted,R1,0.552,0.993,23,92,4,23,pixel_fallback,1000,1000
+JJA,Sydney_AU,Sydney,6.0473953313631625,0.3268369862328159,wetter-enriched,R1,0.553,0.377,51,61,7,15,spatial_block,1000,1000
+JJA,Melbourne_AU,Melbourne,-3.0232384202709,-2.0384235609152963,drier-depleted,R2,0.995,0.66,62,134,7,31,spatial_block,1000,1000
+JJA,Saint_Petersburg_RU,Saint Petersburg,12.060478367446676,0.3070801292533652,wetter-enriched,outside/unsupported,0.808,0.326,33,1138,3,83,pixel_fallback,1000,1000
+JJA,Harbin_CN,Harbin,3.001264908335571,-9.311574808146291,drier-enriched,R3,0.997,0.939,17,40,4,20,pixel_fallback,1000,1000
+JJA,Kano_NG,Kano,7.407772538731763,-1.618136234701084,drier-enriched,R3,1.0,0.907,9,91,2,20,pixel_fallback,1000,1000
+JJA,Santiago_CL,Santiago,1.3160479924063395,7.074387120109176,wetter-enriched,R1,0.756,0.908,24,30,4,17,pixel_fallback,1000,1000
+JJA,Peshawar_PK,Peshawar,-17.947229977809627,1.6011441149147554,wetter-depleted,outside/unsupported,0.897,0.424,6,87,1,18,pixel_fallback,1000,1000
+JJA,Changchun_CN,Changchun,0.5450626883415168,-8.042872260382941,drier-enriched,R2,0.768,0.742,11,55,3,13,pixel_fallback,1000,1000
+JJA,Jeddah_SA,Jeddah,-0.230895465823778,-5.475756872017288,drier-depleted,R2,0.603,0.996,12,190,3,21,pixel_fallback,1000,1000
+JJA,Kabul_AF,Kabul,-3.111840793559878,-16.169837882394415,drier-depleted,R3,0.82,0.974,7,27,2,21,pixel_fallback,1000,1000
+JJA,Zhengzhou_CN,Zhengzhou,0.5005454182732194,2.5222961420859344,wetter-enriched,R1,0.727,0.999,27,11,4,6,pixel_fallback,1000,1000
+JJA,Riyadh_SA,Riyadh,1.3106347531255125,-0.3429979843771739,drier-enriched,R2,0.854,0.614,20,300,4,43,pixel_fallback,1000,1000
+JJA,Los_Angeles_US,Los Angeles,-3.2170303968555345,1.4953841660960387,wetter-depleted,R2,0.81,0.774,164,11,17,7,spatial_block,1000,1000
+JJA,Faisalabad_PK,Faisalabad,18.18274902456,-7.073809486917936,drier-enriched,outside/unsupported,1.0,0.995,5,134,2,41,pixel_fallback,1000,1000
+JJA,Casablanca_MA,Casablanca,1.7717342382704828,-3.905731831076624,drier-enriched,R2,0.998,0.784,7,74,2,19,pixel_fallback,1000,1000
+JJA,Ankara_TR,Ankara,3.1097842204780197,-3.626594436872209,drier-enriched,R3,1.0,0.922,15,207,4,50,pixel_fallback,1000,1000
+JJA,Berlin_DE,Berlin,1.8705274673192207,-2.232511182012654,drier-enriched,R2,0.998,0.983,28,298,4,62,pixel_fallback,1000,1000
+JJA,Tangshan_CN,Tangshan,-5.188165781561708,-5.388235949457106,drier-depleted,R2,1.0,1.0,12,30,2,17,pixel_fallback,1000,1000
+JJA,Rawalpindi_PK,Rawalpindi,-1.9080609047909576,4.2652120865153975,wetter-depleted,R2,0.904,0.67,13,49,3,28,pixel_fallback,1000,1000
+JJA,Durban_ZA,Durban,1.5060172733801949,4.341051790241499,wetter-enriched,R1,0.903,1.0,21,32,4,12,pixel_fallback,1000,1000
+JJA,Madrid_ES,Madrid,-0.5081425838430675,2.2660980116767617,wetter-depleted,R1,0.933,1.0,17,135,3,33,pixel_fallback,1000,1000
+JJA,Bursa_TR,Bursa,7.779834661407989,2.7950391008925366,wetter-enriched,R1,0.986,0.848,7,63,2,23,pixel_fallback,1000,1000
+JJA,UEruemqi_CN,UEruemqi,3.548903638432193,-2.613910779005013,drier-enriched,R3,0.973,0.677,13,29,3,12,pixel_fallback,1000,1000
+JJA,Kyiv_UA,Kyiv,-1.1328264212394572,-6.9148776256047535,drier-depleted,R2,0.868,0.996,16,258,2,48,pixel_fallback,1000,1000
+JJA,Buenos_Aires_AR,Buenos Aires,-1.1408933343273588,-2.5326509472945022,drier-depleted,R2,0.838,0.868,65,777,7,63,spatial_block,1000,1000
+JJA,Toronto_CA,Toronto,6.33790740119656,-2.0197575791099265,drier-enriched,R3,0.882,0.807,63,105,8,27,spatial_block,1000,1000
+JJA,Brisbane_AU,Brisbane,-2.119350645723898,0.2872573607960677,wetter-depleted,R1,0.594,0.639,27,80,5,23,spatial_block,1000,1000
+JJA,Luanda_AO,Luanda,-3.200120869455347,2.88464474852055,wetter-depleted,R2,1.0,1.0,10,251,3,33,pixel_fallback,1000,1000
+JJA,Osaka_JP,Osaka,6.984468555607464,-7.836261616891282,drier-enriched,R3,0.992,0.995,25,12,5,6,spatial_block,1000,1000
+JJA,Belo_Horizonte_BR,Belo Horizonte,-7.184434954567848,-1.684375720429995,drier-depleted,R2,0.943,1.0,17,157,3,46,pixel_fallback,1000,1000
+JJA,Chicago_US,Chicago,-1.9119575738051535,1.2196945932802377,wetter-depleted,R1,0.914,0.6,104,148,11,28,spatial_block,1000,1000
+JJA,Huai_an_CN,Huai'an,4.660357433070004,-3.5786113318294137,drier-enriched,R3,1.0,0.968,11,72,2,29,pixel_fallback,1000,1000
+JJA,Ouagadougou_BF,Ouagadougou,2.33779532721303,-1.320049673458706,drier-enriched,R2,1.0,0.967,11,570,2,57,pixel_fallback,1000,1000
+JJA,Fortaleza_BR,Fortaleza,-1.169955962962831,6.98798740171092,wetter-depleted,R2,0.989,0.826,9,251,1,38,pixel_fallback,1000,1000
+JJA,Perth_AU,Perth,-0.912461781238278,1.4105490568996688,wetter-depleted,R1,0.762,0.922,30,156,5,20,spatial_block,1000,1000
+JJA,Baku_AZ,Baku,2.479835023736001,-4.412841603427892,drier-enriched,R3,1.0,0.692,6,38,3,9,pixel_fallback,1000,1000
+JJA,Hohhot_CN,Hohhot,-4.08659387859359,5.868484066608117,wetter-depleted,R2,1.0,1.0,10,45,2,15,pixel_fallback,1000,1000
+JJA,Nagoya_JP,Nagoya,0.9920640931467516,-12.436315203946975,drier-enriched,R3,0.718,0.979,93,12,10,5,spatial_block,1000,1000
+JJA,Rome_IT,Rome,-0.1673568249733534,0.9136208586410758,wetter-depleted,R1,0.588,0.998,15,22,2,6,pixel_fallback,1000,1000
+JJA,Houston_US,Houston,-2.6078631653959548,-4.549328983113207,drier-depleted,R2,0.966,0.903,36,295,8,36,spatial_block,1000,1000
+JJA,Mashhad_IR,Mashhad,9.46578248770345,1.6247853908695191,wetter-enriched,R1,0.881,0.663,7,31,1,15,pixel_fallback,1000,1000
+JJA,Nantong_CN,Nantong,3.416369435761027,-9.826308741251786,drier-enriched,R3,0.952,0.856,29,38,12,20,spatial_block,1000,1000
+JJA,Manaus_BR,Manaus,7.342303861002421,-3.242504781788066,drier-enriched,R3,1.0,0.965,5,39,2,12,pixel_fallback,1000,1000
+JJA,Lusaka_ZM,Lusaka,-8.512266409495695,-4.818724021247501,drier-depleted,R2,1.0,1.0,11,22,4,9,pixel_fallback,1000,1000
+JJA,Brasilia_BR,Brasilia,-4.275340456266974,-2.3629316775400357,drier-depleted,R2,1.0,0.855,9,54,3,20,pixel_fallback,1000,1000
+JJA,Multan_PK,Multan,7.737684688715518,-4.103290555995433,drier-enriched,R3,0.999,0.972,6,492,2,52,pixel_fallback,1000,1000
+JJA,Baotou_CN,Baotou,6.780496483832536,4.669206218644288,wetter-enriched,R1,1.0,0.999,17,76,4,11,pixel_fallback,1000,1000
+JJA,Paris_FR,Paris,0.6811435050448722,-1.7088173539529516,drier-enriched,R2,0.697,0.819,60,12,6,7,spatial_block,1000,1000
+JJA,Pretoria_ZA,Pretoria,-0.8414243811230051,-3.737701438345244,drier-depleted,R2,0.758,0.991,11,54,2,13,pixel_fallback,1000,1000
+JJA,Cordoba_AR,Cordoba,-0.459210534653522,-0.004658255994469,drier-depleted,R1,0.493,1.0,11,119,2,20,pixel_fallback,1000,1000
+JJA,Aleppo_SY,Aleppo,0.7903161139483359,1.622491756836701,wetter-enriched,R1,0.794,0.995,5,39,2,17,pixel_fallback,1000,1000
+JJA,Weifang_CN,Weifang,-1.0750597637268695,-8.300834074419742,drier-depleted,R2,0.906,0.979,10,60,2,20,pixel_fallback,1000,1000
+JJA,La_Paz_BO,La Paz,16.30405177172028,7.457116005809365,wetter-enriched,outside/unsupported,1.0,0.515,5,255,1,44,pixel_fallback,1000,1000
+JJA,Tashkent_UZ,Tashkent,3.265249440626945,7.78211454259521,wetter-enriched,R1,0.998,1.0,23,102,3,15,pixel_fallback,1000,1000
+JJA,Almaty_KZ,Almaty,10.731110293831335,4.348836650747422,wetter-enriched,R1,1.0,0.9,14,31,3,11,pixel_fallback,1000,1000
+JJA,Khartoum_SD,Khartoum,9.599648631726453,-0.6403969410618574,drier-enriched,R1,0.958,0.302,18,547,4,60,pixel_fallback,1000,1000
+JJA,Hamburg_DE,Hamburg,-1.3805149287431675,5.174742063928381,wetter-depleted,R2,0.973,0.663,15,109,2,46,pixel_fallback,1000,1000
+JJA,Curitiba_BR,Curitiba,-4.236154168707287,-2.088416300718216,drier-depleted,R2,0.99,0.997,17,238,2,39,pixel_fallback,1000,1000
+JJA,Tijuana_MX,Tijuana,2.00973706257588,15.420839492189732,wetter-enriched,R1,0.841,0.676,29,29,6,15,spatial_block,1000,1000
+JJA,Bucharest_RO,Bucharest,-1.8919823025231324,-0.3416080242914814,drier-depleted,R1,0.839,0.908,13,165,3,35,pixel_fallback,1000,1000
+JJA,Santa_Cruz_de_la_Sierra_BO,Santa Cruz de la Sierra,-0.575314087335002,-6.805265643693716,drier-depleted,R2,0.863,1.0,8,225,3,22,pixel_fallback,1000,1000
+JJA,Sharjah_AE,Sharjah,-2.7754277435524983,0.0228278725911427,wetter-depleted,R2,0.529,0.724,12,98,3,26,pixel_fallback,1000,1000
+JJA,Montreal_CA,Montreal,10.0627809328997,0.0197065111500807,wetter-enriched,R3,0.464,0.546,34,143,5,35,spatial_block,1000,1000
+JJA,Maracaibo_VE,Maracaibo,-1.5110238061734265,2.199392296940624,wetter-depleted,R2,0.989,0.374,7,330,1,51,pixel_fallback,1000,1000
+JJA,Minsk_BY,Minsk,0.4906259270958628,-3.0000004916661966,drier-enriched,R2,0.632,0.992,12,415,2,57,pixel_fallback,1000,1000
+JJA,Budapest_HU,Budapest,0.95086036792776,-1.6370239768332182,drier-enriched,R2,0.944,0.846,20,292,3,45,pixel_fallback,1000,1000
+JJA,Warsaw_PL,Warsaw,6.051737607874173,-1.0494455352432916,drier-enriched,R3,0.969,0.965,21,54,2,23,pixel_fallback,1000,1000
+JJA,Vienna_AT,Vienna,-6.820537196917996,-2.017950017992803,drier-depleted,R2,1.0,1.0,12,25,1,12,pixel_fallback,1000,1000
+JJA,Kampala_UG,Kampala,9.393218422368918,-0.1249022980257955,drier-enriched,R1,0.563,0.364,5,27,1,11,pixel_fallback,1000,1000
+JJA,Phoenix_US,Phoenix,0.5375906413185021,5.21358278734456,wetter-enriched,R1,0.641,0.915,71,83,8,15,spatial_block,1000,1000
+JJA,Yancheng_CN,Yancheng,9.60640143003971,-11.780587674091176,drier-enriched,R3,1.0,0.976,13,60,3,27,pixel_fallback,1000,1000
+JJA,Novosibirsk_RU,Novosibirsk,7.733523637620323,-6.607655084126608,drier-enriched,R3,1.0,1.0,13,462,2,42,pixel_fallback,1000,1000
+JJA,Daqing_CN,Daqing,1.4096536252347676,-0.6998821673091667,drier-enriched,R2,0.705,0.794,7,407,1,49,pixel_fallback,1000,1000
+JJA,Santiago_de_Queretaro_MX,Santiago de Queretaro,-4.62359505322928,5.0693560686483154,wetter-depleted,R2,0.999,0.987,6,32,3,20,pixel_fallback,1000,1000
+JJA,Leon_de_los_Aldama_MX,Leon de los Aldama,-2.810524767864649,5.987636763815682,wetter-depleted,R2,0.998,0.969,5,74,2,19,pixel_fallback,1000,1000
+JJA,Philadelphia_US,Philadelphia,-3.12678713864517,-1.8735760134880317,drier-depleted,R2,0.814,0.727,40,25,5,10,spatial_block,1000,1000
+JJA,Damascus_SY,Damascus,3.852812882641672,-8.66915032494789,drier-enriched,R3,1.0,1.0,6,76,2,20,pixel_fallback,1000,1000
+JJA,Auckland_NZ,Auckland,-3.668963023471548,2.021345339757105,wetter-depleted,R2,1.0,0.983,16,395,3,50,pixel_fallback,1000,1000
+JJA,Isfahan_IR,Isfahan,-17.400280920325088,1.6289244315524778,wetter-depleted,R3,0.996,0.543,7,129,1,31,pixel_fallback,1000,1000
+JJA,Astana_KZ,Astana,-1.508127566118759,-2.2786089912339493,drier-depleted,R1,1.0,0.425,6,1117,3,62,pixel_fallback,1000,1000
+JJA,Harare_ZW,Harare,-2.358028446625184,-2.211320548313414,drier-depleted,R1,0.994,0.446,12,69,4,21,pixel_fallback,1000,1000
+JJA,Goiania_BR,Goiania,-3.61449351523612,0.9985304392873,wetter-depleted,R2,0.907,0.96,13,94,3,25,pixel_fallback,1000,1000
+JJA,San_Antonio_US,San Antonio,0.3863907223729228,-2.8385102907562128,drier-enriched,R2,0.712,0.96,31,115,5,25,spatial_block,1000,1000
+JJA,Stockholm_SE,Stockholm,9.36223439629822,4.729351886482741,wetter-enriched,R1,1.0,0.999,11,896,2,56,pixel_fallback,1000,1000
+JJA,Ciudad_Juarez_MX,Ciudad Juarez,-4.999269208399994,1.080059905318437,wetter-depleted,R2,0.992,1.0,15,67,2,13,pixel_fallback,1000,1000
+JJA,Yekaterinburg_RU,Yekaterinburg,8.044140623291753,0.486131405003269,wetter-enriched,R3,0.635,0.589,10,47,3,13,pixel_fallback,1000,1000
+JJA,Porto_Alegre_BR,Porto Alegre,-1.6235836012731395,-0.3448016134016766,drier-depleted,R1,0.681,0.843,7,520,2,54,pixel_fallback,1000,1000
+JJA,Yinchuan_CN,Yinchuan,11.723073380292192,14.296799407912443,wetter-enriched,R1,1.0,1.0,6,107,1,17,pixel_fallback,1000,1000
+JJA,Asuncion_PY,Asuncion,1.336769801834535,-1.555234457148785,drier-enriched,R2,0.997,0.934,12,577,2,55,pixel_fallback,1000,1000
+JJA,Zapopan_MX,Zapopan,1.6047985691989766,1.472536110380411,wetter-enriched,R1,0.702,0.773,20,34,4,23,pixel_fallback,1000,1000
+JJA,Adelaide_AU,Adelaide,0.5734391193512351,-0.3682784524099221,drier-enriched,R1,0.553,0.717,21,446,2,56,pixel_fallback,1000,1000
+JJA,Kayseri_TR,Kayseri,4.754024250735341,3.386935879570649,wetter-enriched,R1,0.998,0.975,5,149,2,47,pixel_fallback,1000,1000
+JJA,Kaifeng_CN,Kaifeng,-4.656788153480164,4.234272431551914,wetter-depleted,R2,0.998,1.0,6,11,3,6,pixel_fallback,1000,1000
+JJA,Karaj_IR,Karaj,-0.0967541229765913,-3.332022338800863,drier-depleted,R2,0.488,0.711,5,37,1,17,pixel_fallback,1000,1000
+JJA,Suqian_CN,Suqian,8.544938180753945,-10.105881994954558,drier-enriched,R3,1.0,1.0,5,51,2,21,pixel_fallback,1000,1000
+JJA,Konya_TR,Konya,2.167252326982293,-2.7113873547491103,drier-enriched,R2,1.0,0.791,8,358,2,45,pixel_fallback,1000,1000
+JJA,Tabriz_IR,Tabriz,-0.7013582731373162,-3.533979142688344,drier-depleted,R2,0.684,0.869,5,62,1,34,pixel_fallback,1000,1000
+JJA,Kharkiv_UA,Kharkiv,1.787634201821504,4.405654540317801,wetter-enriched,R1,1.0,1.0,11,681,2,70,pixel_fallback,1000,1000
+JJA,N_Djamena_TD,N'Djamena,2.1578177926855204,0.5015368352751844,wetter-enriched,R2,0.922,0.609,5,739,2,60,pixel_fallback,1000,1000
+JJA,Antananarivo_MG,Antananarivo,-3.957737406769098,-5.138925437747306,drier-depleted,R2,1.0,1.0,5,69,1,21,pixel_fallback,1000,1000
+JJA,Dallas_US,Dallas,2.804711480652216,4.029663888873166,wetter-enriched,R1,1.0,1.0,46,325,6,39,spatial_block,1000,1000
+JJA,Calgary_CA,Calgary,-0.2536261504738206,1.8493075342972332,wetter-depleted,R1,0.72,1.0,15,124,3,18,pixel_fallback,1000,1000
+JJA,Amman_JO,Amman,2.855129454265949,6.42844615547317,wetter-enriched,R1,0.999,1.0,12,55,2,20,pixel_fallback,1000,1000
+JJA,Belgrade_RS,Belgrade,0.2875633905253778,3.4678694995493906,wetter-enriched,R1,0.647,0.992,5,61,1,24,pixel_fallback,1000,1000
+JJA,Nizhniy_Novgorod_RU,Nizhniy Novgorod,10.999528536734914,6.482881180878175,wetter-enriched,R1,1.0,1.0,12,273,2,43,pixel_fallback,1000,1000
+SON,Shanghai_CN,Shanghai,0.876111129541556,-12.824194072361024,drier-enriched,R3,0.677,0.935,363,51,28,25,spatial_block,1000,1000
+SON,Guangzhou_CN,Guangzhou,0.5605818612986013,-1.7155572471881926,drier-enriched,R2,0.605,0.658,176,18,20,10,spatial_block,1000,1000
+SON,Chengdu_CN,Chengdu,-1.1116701805865148,23.682105260947885,wetter-depleted,R2,0.663,0.369,6,11,3,7,pixel_fallback,1000,1000
+SON,Lahore_PK,Lahore,-1.097108414059505,-12.59458844574293,drier-depleted,R3,0.977,0.995,14,77,2,26,pixel_fallback,1000,1000
+SON,Mumbai_IN,Mumbai,4.755370562155591,-0.8480308881854391,drier-enriched,R3,0.895,0.831,6,68,1,21,pixel_fallback,1000,1000
+SON,Sao_Paulo_BR,Sao Paulo,-7.512213406538379,-3.0235873230041648,drier-depleted,R2,0.981,0.997,54,119,8,36,spatial_block,1000,1000
+SON,Mexico_City_MX,Mexico City,4.649462902089852,5.610343226104974,wetter-enriched,R1,0.951,0.943,52,19,6,8,spatial_block,1000,1000
+SON,Karachi_PK,Karachi,4.702744586529136,2.073913889333233,wetter-enriched,R1,1.0,0.96,19,440,4,40,pixel_fallback,1000,1000
+SON,Tianjin_CN,Tianjin,-13.5571635338369,-10.153475900832872,drier-depleted,R2,1.0,0.61,33,43,5,19,spatial_block,1000,1000
+SON,Delhi_IN,Delhi,6.27730517272245,-3.328776690151271,drier-enriched,R3,1.0,0.987,40,113,6,24,spatial_block,1000,1000
+SON,Wuhan_CN,Wuhan,2.098889221881421,-2.95067171020793,drier-enriched,R2,0.735,0.505,25,15,5,8,spatial_block,1000,1000
+SON,Moscow_RU,Moscow,20.118072656795874,-1.7614258614728504,drier-enriched,outside/unsupported,0.977,1.0,65,330,6,45,spatial_block,1000,1000
+SON,Dhaka_BD,Dhaka,1.7337683682543172,-3.312644423602517,drier-enriched,R2,0.998,0.827,13,61,3,25,pixel_fallback,1000,1000
+SON,Seoul_KR,Seoul,-2.701450086636271,-0.7095852195579341,drier-depleted,R2,0.865,0.494,30,121,4,22,pixel_fallback,1000,1000
+SON,Cairo_EG,Cairo,4.02336250264932,-2.8717444327742805,drier-enriched,R3,0.875,0.779,24,214,5,36,spatial_block,1000,1000
+SON,Johannesburg_ZA,Johannesburg,1.7126537629847292,0.2530443172005285,wetter-enriched,R1,0.58,0.681,50,27,7,11,spatial_block,1000,1000
+SON,Nanjing_CN,Nanjing,0.618691647726763,-3.3433118443844867,drier-enriched,R2,0.722,0.944,31,37,3,16,pixel_fallback,1000,1000
+SON,Hangzhou_CN,Hangzhou,8.057164165448711,-5.158125290071988,drier-enriched,R3,0.874,0.822,90,26,12,12,spatial_block,1000,1000
+SON,London_GB,London,-7.461028136428581,3.8246202072773583,wetter-depleted,R2,0.999,0.977,71,41,7,19,spatial_block,1000,1000
+SON,New_York_City_US,New York City,3.117960624461432,-7.75793568547756,drier-enriched,R3,0.962,0.905,86,72,10,12,spatial_block,1000,1000
+SON,Bengaluru_IN,Bengaluru,1.6327388737333308,2.722505086304679,wetter-enriched,R1,0.819,0.887,7,48,2,16,pixel_fallback,1000,1000
+SON,Hanoi_VN,Hanoi,6.229156303745754,2.658008270587035,wetter-enriched,R1,0.997,0.937,15,21,2,12,pixel_fallback,1000,1000
+SON,Lima_PE,Lima,-3.02295324963265,-0.872064532202189,drier-depleted,R2,0.672,0.771,10,18,3,11,pixel_fallback,1000,1000
+SON,Chongqing_CN,Chongqing,-1.556528273750445,12.147090304789838,wetter-depleted,R2,0.946,0.925,14,58,4,23,pixel_fallback,1000,1000
+SON,Baghdad_IQ,Baghdad,2.1392669880000312,2.527502584020398,wetter-enriched,R1,1.0,0.999,18,593,2,52,pixel_fallback,1000,1000
+SON,Tehran_IR,Tehran,6.862128988816096,-1.6141371588072233,drier-enriched,R3,0.862,0.887,25,52,4,18,pixel_fallback,1000,1000
+SON,Hyderabad_IN,Hyderabad,-1.6993141609097222,-0.6021035603921755,drier-depleted,R1,0.831,0.998,19,86,4,26,pixel_fallback,1000,1000
+SON,Rio_de_Janeiro_BR,Rio de Janeiro,0.3528606842449164,-1.6044468392573743,drier-enriched,R2,0.659,0.636,23,86,4,20,pixel_fallback,1000,1000
+SON,Ahmedabad_IN,Ahmedabad,0.7775003973237062,-0.5480865438719387,drier-enriched,R1,0.856,0.67,11,242,3,39,pixel_fallback,1000,1000
+SON,Sydney_AU,Sydney,0.7506411894688654,10.16528145461904,wetter-enriched,R1,0.687,0.655,51,61,7,15,spatial_block,1000,1000
+SON,Melbourne_AU,Melbourne,-7.844785848989716,-1.6917685830404714,drier-depleted,R2,0.962,1.0,62,134,7,31,spatial_block,1000,1000
+SON,Dar_es_Salaam_TZ,Dar es Salaam,-7.58820743145543,9.994306833108404,wetter-depleted,R2,1.0,0.85,5,161,2,21,pixel_fallback,1000,1000
+SON,Saint_Petersburg_RU,Saint Petersburg,10.483779530696353,-8.571865621969527,drier-enriched,R3,1.0,0.946,30,879,3,55,pixel_fallback,1000,1000
+SON,Harbin_CN,Harbin,2.6471479732604166,2.018069381910279,wetter-enriched,R1,0.993,0.922,17,40,4,20,pixel_fallback,1000,1000
+SON,Hefei_CN,Hefei,3.939589314231796,-2.51335573905052,drier-enriched,R3,0.897,0.75,14,25,3,6,pixel_fallback,1000,1000
+SON,Kano_NG,Kano,3.018535396626689,2.458023670430408,wetter-enriched,R1,0.966,0.931,9,95,2,21,pixel_fallback,1000,1000
+SON,Santiago_CL,Santiago,-6.703406489784612,8.08518875098843,wetter-depleted,R2,1.0,0.961,24,30,4,17,pixel_fallback,1000,1000
+SON,Peshawar_PK,Peshawar,-9.596866645910636,-4.00955470804106,drier-depleted,R2,0.997,1.0,6,95,1,18,pixel_fallback,1000,1000
+SON,Changchun_CN,Changchun,-0.7607491625067837,-1.878959250684203,drier-depleted,R1,0.832,0.539,20,85,3,19,pixel_fallback,1000,1000
+SON,Jeddah_SA,Jeddah,-0.2276000925531889,0.7426071388840052,wetter-depleted,R1,0.557,1.0,12,190,3,21,pixel_fallback,1000,1000
+SON,Chennai_IN,Chennai,-9.69299493857818,8.259672058704115,wetter-depleted,R2,0.989,0.525,7,73,2,16,pixel_fallback,1000,1000
+SON,Kolkata_IN,Kolkata,1.9077201343259844,-4.652449974902053,drier-enriched,R3,1.0,0.448,20,84,3,20,pixel_fallback,1000,1000
+SON,Kabul_AF,Kabul,1.6955733417887302,-8.93943904596897,drier-enriched,R3,0.692,0.818,7,29,2,23,pixel_fallback,1000,1000
+SON,Zhengzhou_CN,Zhengzhou,2.493615559626704,-1.223969451419013,drier-enriched,R2,0.797,0.838,27,11,4,6,pixel_fallback,1000,1000
+SON,Bamako_ML,Bamako,-1.894897130843475,7.499154099755286,wetter-depleted,R2,0.985,0.991,8,571,1,59,pixel_fallback,1000,1000
+SON,Riyadh_SA,Riyadh,1.85175591173298,2.261283575386817,wetter-enriched,R1,1.0,1.0,20,300,4,43,pixel_fallback,1000,1000
+SON,Addis_Ababa_ET,Addis Ababa,-15.733322748139926,-3.624935662181015,drier-depleted,R3,0.964,0.783,8,38,2,30,pixel_fallback,1000,1000
+SON,Zhongshan_CN,Zhongshan,4.867407215975987,-3.5475242000526457,drier-enriched,R3,0.986,0.986,7,29,2,14,pixel_fallback,1000,1000
+SON,Nanning_CN,Nanning,2.131658110803727,-3.495390334506689,drier-enriched,R2,1.0,0.664,10,32,2,17,pixel_fallback,1000,1000
+SON,Shantou_CN,Shantou,0.2550104973944087,-0.4761455161689993,drier-enriched,R1,0.211,0.531,8,10,2,7,pixel_fallback,1000,1000
+SON,Los_Angeles_US,Los Angeles,1.4484118851244432,-1.1220504145691503,drier-enriched,R2,0.353,0.682,164,11,17,7,spatial_block,1000,1000
+SON,Faisalabad_PK,Faisalabad,3.719421686912739,-10.880932201140952,drier-enriched,R3,1.0,1.0,5,145,2,42,pixel_fallback,1000,1000
+SON,Fuzhou_CN,Fuzhou,0.3302615093780616,-5.46737462627319,drier-enriched,R2,0.512,0.828,11,11,3,6,pixel_fallback,1000,1000
+SON,Ningbo_CN,Ningbo,2.060638377869509,-19.63184599704508,drier-enriched,R3,0.922,0.94,26,18,4,11,pixel_fallback,1000,1000
+SON,Casablanca_MA,Casablanca,4.356850261731438,-2.881671644741512,drier-enriched,R3,1.0,1.0,7,74,2,19,pixel_fallback,1000,1000
+SON,Ankara_TR,Ankara,1.640402062998021,-4.983290304514336,drier-enriched,R2,1.0,0.706,15,207,4,50,pixel_fallback,1000,1000
+SON,Berlin_DE,Berlin,3.715749083709369,0.8120598486734569,wetter-enriched,R2,0.925,0.577,28,359,4,63,pixel_fallback,1000,1000
+SON,Tangshan_CN,Tangshan,-13.010338259125746,-6.54015404021375,drier-depleted,R2,1.0,0.996,12,30,2,17,pixel_fallback,1000,1000
+SON,Rawalpindi_PK,Rawalpindi,-1.9361504997105925,-0.0101020434872493,drier-depleted,R1,0.499,0.738,13,73,3,33,pixel_fallback,1000,1000
+SON,Durban_ZA,Durban,0.1393660956343012,2.8867805601641057,wetter-enriched,R1,0.61,1.0,21,32,4,12,pixel_fallback,1000,1000
+SON,Madrid_ES,Madrid,2.360551573681136,2.7294983538413016,wetter-enriched,R1,1.0,1.0,17,135,3,33,pixel_fallback,1000,1000
+SON,Pyongyang_KP,Pyongyang,-2.4942849102413334,-4.225877323020695,drier-depleted,R2,0.955,1.0,5,264,1,52,pixel_fallback,1000,1000
+SON,Pune_IN,Pune,-2.4030403477817543,0.2586957448636292,wetter-depleted,R2,0.568,0.482,16,41,3,17,pixel_fallback,1000,1000
+SON,Bursa_TR,Bursa,7.1175006881400975,-2.685038541888529,drier-enriched,R3,0.918,0.913,7,63,2,23,pixel_fallback,1000,1000
+SON,Changsha_CN,Changsha,3.904713294141033,-5.701753786895922,drier-enriched,R3,1.0,0.998,21,36,3,13,pixel_fallback,1000,1000
+SON,Jaipur_IN,Jaipur,4.691963421860123,1.3720573735664037,wetter-enriched,R1,0.831,0.673,9,107,2,27,pixel_fallback,1000,1000
+SON,Guiyang_CN,Guiyang,-1.8718323854623409,-4.140431374952405,drier-depleted,R2,0.955,0.914,9,75,2,34,pixel_fallback,1000,1000
+SON,UEruemqi_CN,UEruemqi,4.360599142317284,-2.5214669878719635,drier-enriched,R3,0.916,0.89,13,29,3,12,pixel_fallback,1000,1000
+SON,Kyiv_UA,Kyiv,3.874004697175991,-2.2842718504782917,drier-enriched,R3,0.993,0.754,16,338,2,48,pixel_fallback,1000,1000
+SON,Huizhou_CN,Huizhou,2.138742941599673,4.348386982064792,wetter-enriched,R1,0.931,0.966,5,24,2,13,pixel_fallback,1000,1000
+SON,Buenos_Aires_AR,Buenos Aires,-1.857217401952312,-0.8760982620511101,drier-depleted,R1,0.831,0.744,65,778,7,63,spatial_block,1000,1000
+SON,Kanpur_IN,Kanpur,5.583639863045235,-0.8985072269544346,drier-enriched,R3,0.971,0.991,6,664,2,55,pixel_fallback,1000,1000
+SON,Toronto_CA,Toronto,10.092756436531744,4.07957300289267,wetter-enriched,R1,0.936,0.756,63,105,8,27,spatial_block,1000,1000
+SON,Brisbane_AU,Brisbane,-1.094483152041903,3.1918336713493707,wetter-depleted,R1,0.874,0.74,27,80,5,23,spatial_block,1000,1000
+SON,Luanda_AO,Luanda,-1.1723120091019723,6.672695267021526,wetter-depleted,R2,0.727,0.602,10,104,3,21,pixel_fallback,1000,1000
+SON,Osaka_JP,Osaka,15.158958904169737,10.005675332436978,wetter-enriched,R1,0.992,0.832,74,19,10,9,spatial_block,1000,1000
+SON,Belo_Horizonte_BR,Belo Horizonte,-6.019834227690126,-1.411359013510856,drier-depleted,R2,0.941,1.0,17,114,3,42,pixel_fallback,1000,1000
+SON,Chicago_US,Chicago,-2.1603091930492724,-3.027218256287257,drier-depleted,R2,0.918,0.784,104,146,11,27,spatial_block,1000,1000
+SON,Huai_an_CN,Huai'an,1.433445968305847,-0.9139522405057978,drier-enriched,R2,0.84,0.802,12,93,2,29,pixel_fallback,1000,1000
+SON,Lucknow_IN,Lucknow,1.9654473678392463,-0.6329895335449883,drier-enriched,R2,0.966,0.992,7,563,2,57,pixel_fallback,1000,1000
+SON,Ouagadougou_BF,Ouagadougou,4.125433445136693,8.04522345209594,wetter-enriched,R1,1.0,1.0,11,704,2,62,pixel_fallback,1000,1000
+SON,Nagpur_IN,Nagpur,-3.372544475285437,-3.972654934366114,drier-depleted,R2,1.0,1.0,6,192,1,46,pixel_fallback,1000,1000
+SON,Fortaleza_BR,Fortaleza,-1.6343914955330376,1.0491110771466012,wetter-depleted,R1,0.996,0.877,9,255,1,38,pixel_fallback,1000,1000
+SON,Perth_AU,Perth,-2.1434766519651878,2.5146189032291084,wetter-depleted,R2,0.995,0.765,30,156,5,20,spatial_block,1000,1000
+SON,Nanchang_CN,Nanchang,2.5634938727458234,-1.5762029390684014,drier-enriched,R2,0.861,0.876,17,96,3,23,pixel_fallback,1000,1000
+SON,Baku_AZ,Baku,6.8865152334920765,-0.0340400305678808,drier-enriched,R3,0.501,0.751,6,38,3,9,pixel_fallback,1000,1000
+SON,Hohhot_CN,Hohhot,-5.269991442577606,1.4712666279780784,wetter-depleted,R2,0.914,0.999,10,45,2,15,pixel_fallback,1000,1000
+SON,Nagoya_JP,Nagoya,8.094407381012587,-6.955017864406984,drier-enriched,R3,0.834,0.844,115,13,10,6,spatial_block,1000,1000
+SON,Rome_IT,Rome,0.6642747157176245,3.0271268381941154,wetter-enriched,R1,0.769,1.0,15,22,2,6,pixel_fallback,1000,1000
+SON,Houston_US,Houston,0.7208223556094424,-1.6710809059963214,drier-enriched,R2,0.662,0.727,69,637,9,55,spatial_block,1000,1000
+SON,Mashhad_IR,Mashhad,11.577257363919928,0.704662034058374,wetter-enriched,R3,0.772,0.445,7,31,1,15,pixel_fallback,1000,1000
+SON,Nantong_CN,Nantong,1.2160007866638125,-6.890424627331733,drier-enriched,R2,0.731,0.59,99,48,13,23,spatial_block,1000,1000
+SON,Lusaka_ZM,Lusaka,-2.49800998789452,-4.060182316863311,drier-depleted,R2,0.998,0.951,11,22,4,9,pixel_fallback,1000,1000
+SON,Brasilia_BR,Brasilia,-1.888587649138572,-8.217117995600594,drier-depleted,R2,0.938,0.948,8,22,3,6,pixel_fallback,1000,1000
+SON,Lome_TG,Lome,6.57594380536375,-1.2051387492270298,drier-enriched,R3,0.988,0.891,5,17,1,6,pixel_fallback,1000,1000
+SON,Multan_PK,Multan,4.23643496053856,-0.9985686410396128,drier-enriched,R3,0.999,0.942,6,495,2,52,pixel_fallback,1000,1000
+SON,Baotou_CN,Baotou,1.3529797873618463,-1.1325176777525572,drier-enriched,R2,0.79,0.849,17,76,4,11,pixel_fallback,1000,1000
+SON,Paris_FR,Paris,0.909362816564169,-0.4139055391458365,drier-enriched,R1,0.352,0.638,60,12,6,7,spatial_block,1000,1000
+SON,Pretoria_ZA,Pretoria,2.419348727901948,2.9367276903734783,wetter-enriched,R1,0.997,0.994,11,54,2,13,pixel_fallback,1000,1000
+SON,Cordoba_AR,Cordoba,1.1183831080247728,1.2018212600773523,wetter-enriched,R1,0.955,0.997,11,119,2,20,pixel_fallback,1000,1000
+SON,Aleppo_SY,Aleppo,4.871378911662987,1.9528923169949284,wetter-enriched,R1,0.993,0.895,5,39,2,17,pixel_fallback,1000,1000
+SON,Weifang_CN,Weifang,-0.3035944192736508,-5.008900016749877,drier-depleted,R2,0.618,0.98,10,60,2,20,pixel_fallback,1000,1000
+SON,Tashkent_UZ,Tashkent,9.663509632188209,10.085466470657655,wetter-enriched,R1,1.0,1.0,23,102,3,15,pixel_fallback,1000,1000
+SON,Ganzhou_CN,Ganzhou,8.287444018271117,13.172876910245211,wetter-enriched,R1,1.0,1.0,5,30,2,16,pixel_fallback,1000,1000
+SON,Almaty_KZ,Almaty,7.847613567900623,0.2199339752002597,wetter-enriched,R1,0.593,0.438,14,31,3,11,pixel_fallback,1000,1000
+SON,Khartoum_SD,Khartoum,4.254557631525586,5.868375178524916,wetter-enriched,R1,1.0,1.0,18,552,4,60,pixel_fallback,1000,1000
+SON,Hamburg_DE,Hamburg,-14.02716392878719,-1.2933339392570686,drier-depleted,R3,0.99,0.687,15,109,2,46,pixel_fallback,1000,1000
+SON,Sapporo_JP,Sapporo,6.347815568536191,-1.5906711465430337,drier-enriched,R3,0.78,0.765,11,24,2,12,pixel_fallback,1000,1000
+SON,Accra_GH,Accra,3.328188868723643,-0.6388534838289784,drier-enriched,R2,0.903,0.672,21,20,4,7,pixel_fallback,1000,1000
+SON,Curitiba_BR,Curitiba,-8.239318132805607,-0.7741560865515332,drier-depleted,R2,0.809,1.0,17,151,2,32,pixel_fallback,1000,1000
+SON,Tijuana_MX,Tijuana,14.616071787185035,15.704277010854646,wetter-enriched,R1,1.0,1.0,29,29,6,15,spatial_block,1000,1000
+SON,Jieyang_CN,Jieyang,6.837946419226853,-0.8592396551189222,drier-enriched,R3,0.56,0.622,6,13,2,9,pixel_fallback,1000,1000
+SON,Jilin_CN,Jilin,4.104374636035402,4.682719435859612,wetter-enriched,R1,1.0,1.0,9,34,1,10,pixel_fallback,1000,1000
+SON,Bucharest_RO,Bucharest,2.6739598832668605,1.693325373812716,wetter-enriched,R1,0.998,0.926,13,165,3,35,pixel_fallback,1000,1000
+SON,Kaduna_NG,Kaduna,0.0193135274240461,1.4107693549383085,wetter-enriched,R1,0.51,1.0,6,249,3,40,pixel_fallback,1000,1000
+SON,Santa_Cruz_de_la_Sierra_BO,Santa Cruz de la Sierra,-2.6530848981684727,-0.1340730032776336,drier-depleted,R2,0.566,0.608,8,196,3,21,pixel_fallback,1000,1000
+SON,Sharjah_AE,Sharjah,2.596139389325515,3.09076017052071,wetter-enriched,R1,1.0,1.0,12,98,3,26,pixel_fallback,1000,1000
+SON,Montreal_CA,Montreal,7.311194584436635,-0.7489723005024024,drier-enriched,R3,0.765,0.845,34,145,5,35,spatial_block,1000,1000
+SON,Maracaibo_VE,Maracaibo,7.879149509208261,-3.474009062068604,drier-enriched,R3,0.991,0.97,7,318,1,53,pixel_fallback,1000,1000
+SON,Chaozhou_CN,Chaozhou,0.913905218473559,-10.372370729118623,drier-enriched,R3,0.675,0.84,6,10,1,7,pixel_fallback,1000,1000
+SON,Minsk_BY,Minsk,4.703989037359094,0.6946849789120796,wetter-enriched,R1,0.899,0.462,12,634,2,64,pixel_fallback,1000,1000
+SON,Budapest_HU,Budapest,-0.8434328801612594,-4.539518159675539,drier-depleted,R2,0.983,1.0,20,292,3,45,pixel_fallback,1000,1000
+SON,Warsaw_PL,Warsaw,1.2393757539661865,-4.189505492669868,drier-enriched,R2,0.846,0.758,21,64,2,24,pixel_fallback,1000,1000
+SON,Vienna_AT,Vienna,-7.79267004225332,-2.967603537254311,drier-depleted,R2,1.0,1.0,12,25,1,12,pixel_fallback,1000,1000
+SON,Phoenix_US,Phoenix,-0.3811295852485443,-1.9487605029465045,drier-depleted,R1,0.613,0.435,71,83,8,15,spatial_block,1000,1000
+SON,Ludhiana_IN,Ludhiana,-5.327248702521331,-9.480115640877324,drier-depleted,R2,1.0,0.867,6,11,2,5,pixel_fallback,1000,1000
+SON,Yancheng_CN,Yancheng,3.381241164209314,-0.2937674364955402,drier-enriched,R2,0.626,0.741,14,75,3,27,pixel_fallback,1000,1000
+SON,Novosibirsk_RU,Novosibirsk,12.37921423140881,1.1010134393801947,wetter-enriched,outside/unsupported,0.893,0.297,13,702,2,47,pixel_fallback,1000,1000
+SON,Fukuoka_JP,Fukuoka,4.323316738885779,-7.430182548627781,drier-enriched,R3,0.874,0.808,9,10,2,8,pixel_fallback,1000,1000
+SON,Taizhou_CN,Taizhou,0.1697041471630598,-0.4144176792508018,drier-enriched,R1,0.32,0.757,9,38,3,12,pixel_fallback,1000,1000
+SON,Daqing_CN,Daqing,0.9393780353280476,4.139729471018361,wetter-enriched,R1,0.835,0.987,7,407,1,49,pixel_fallback,1000,1000
+SON,Santiago_de_Queretaro_MX,Santiago de Queretaro,1.93198201220406,6.501143851271531,wetter-enriched,R1,0.971,0.997,6,36,3,21,pixel_fallback,1000,1000
+SON,Yangzhou_CN,Yangzhou,0.4055067856583321,-2.3291538652805563,drier-enriched,R2,0.641,0.829,15,43,3,19,pixel_fallback,1000,1000
+SON,Leon_de_los_Aldama_MX,Leon de los Aldama,-0.3467993747114235,4.4069736422937655,wetter-depleted,R1,0.668,0.903,5,74,2,19,pixel_fallback,1000,1000
+SON,Philadelphia_US,Philadelphia,3.647947064066841,-5.304499597121432,drier-enriched,R3,0.973,0.824,40,51,5,12,spatial_block,1000,1000
+SON,Damascus_SY,Damascus,4.688869323445772,-4.763173005357419,drier-enriched,R3,1.0,1.0,6,76,2,20,pixel_fallback,1000,1000
+SON,Auckland_NZ,Auckland,-3.6142954038696473,-0.6343034241410989,drier-depleted,R2,0.782,0.826,16,310,3,43,pixel_fallback,1000,1000
+SON,Isfahan_IR,Isfahan,-13.356831552981674,1.7796063447064363,wetter-depleted,R3,1.0,0.735,7,129,1,31,pixel_fallback,1000,1000
+SON,Astana_KZ,Astana,3.78804252989778,4.546249084491734,wetter-enriched,R1,0.924,0.949,6,1117,3,62,pixel_fallback,1000,1000
+SON,Harare_ZW,Harare,-1.0652770795743152,-4.315685075964069,drier-depleted,R2,0.974,0.992,12,69,4,21,pixel_fallback,1000,1000
+SON,San_Antonio_US,San Antonio,-2.6054799136191207,-4.577475416233595,drier-depleted,R2,0.998,0.979,31,115,5,25,spatial_block,1000,1000
+SON,Stockholm_SE,Stockholm,-4.318113953904344,-2.0583026884183764,drier-depleted,R2,0.979,0.796,11,950,2,57,pixel_fallback,1000,1000
+SON,Ciudad_Juarez_MX,Ciudad Juarez,-1.5443193584396795,-0.0635126255874054,drier-depleted,R1,0.525,0.913,15,67,2,13,pixel_fallback,1000,1000
+SON,Yekaterinburg_RU,Yekaterinburg,21.615000331654272,-0.4913244791526107,drier-enriched,outside/unsupported,0.752,1.0,10,296,3,35,pixel_fallback,1000,1000
+SON,Porto_Alegre_BR,Porto Alegre,2.6767726977687687,4.259616022469958,wetter-enriched,R1,0.998,1.0,7,528,2,55,pixel_fallback,1000,1000
+SON,Yinchuan_CN,Yinchuan,24.728855106868792,1.7021411461140967,wetter-enriched,outside/unsupported,0.904,1.0,6,107,1,17,pixel_fallback,1000,1000
+SON,Asuncion_PY,Asuncion,-3.306979469031191,1.6248603443280594,wetter-depleted,R2,1.0,0.999,12,577,2,55,pixel_fallback,1000,1000
+SON,Zapopan_MX,Zapopan,1.175047125007694,7.836572329329129,wetter-enriched,R1,0.889,0.969,20,56,4,32,pixel_fallback,1000,1000
+SON,Adelaide_AU,Adelaide,0.2899474608010166,1.9730627487198853,wetter-enriched,R1,0.687,0.998,21,446,2,56,pixel_fallback,1000,1000
+SON,Cixi_CN,Cixi,7.392106124443956,-9.904625570520304,drier-enriched,R3,0.999,0.987,15,29,3,15,pixel_fallback,1000,1000
+SON,Kayseri_TR,Kayseri,3.3412639218115032,-2.431961011120087,drier-enriched,R3,0.991,0.753,5,149,2,47,pixel_fallback,1000,1000
+SON,Kaifeng_CN,Kaifeng,-1.4297165227956157,3.525700480714052,wetter-depleted,R1,0.806,0.543,6,11,3,6,pixel_fallback,1000,1000
+SON,Karaj_IR,Karaj,1.5188657801179488,-2.5855274932153653,drier-enriched,R2,0.758,0.848,5,37,1,17,pixel_fallback,1000,1000
+SON,Kathmandu_NP,Kathmandu,-5.67304420107746,-5.990655649598296,drier-depleted,R2,0.969,0.934,5,30,1,19,pixel_fallback,1000,1000
+SON,Baoji_CN,Baoji,8.997993421721674,20.82603980620431,wetter-enriched,R1,1.0,1.0,5,10,2,5,pixel_fallback,1000,1000
+SON,Suqian_CN,Suqian,1.4640498771442196,0.5586207346359515,wetter-enriched,R1,0.651,0.644,5,64,2,21,pixel_fallback,1000,1000
+SON,Liuzhou_CN,Liuzhou,2.014029204111722,7.210979722616114,wetter-enriched,R1,0.977,1.0,7,34,2,16,pixel_fallback,1000,1000
+SON,Konya_TR,Konya,1.6260727224167797,-2.396386272953375,drier-enriched,R2,0.985,0.997,8,358,2,45,pixel_fallback,1000,1000
+SON,Agra_IN,Agra,0.9695523155648686,-0.1679215221229104,drier-enriched,R1,0.49,0.722,5,628,2,78,pixel_fallback,1000,1000
+SON,Tabriz_IR,Tabriz,-0.1887983738278933,-3.0794264991889144,drier-depleted,R2,0.526,0.895,5,62,1,34,pixel_fallback,1000,1000
+SON,Kharkiv_UA,Kharkiv,0.5158077953524014,3.2941874704965994,wetter-enriched,R1,0.97,1.0,11,681,2,70,pixel_fallback,1000,1000
+SON,Gwangju_KR,Gwangju,6.874369869138235,11.568729178438865,wetter-enriched,R1,1.0,1.0,6,23,1,11,pixel_fallback,1000,1000
+SON,N_Djamena_TD,N'Djamena,7.190612872889716,4.949207900888128,wetter-enriched,R1,1.0,1.0,5,967,2,67,pixel_fallback,1000,1000
+SON,Antananarivo_MG,Antananarivo,1.5481964959959384,0.2288546119020179,wetter-enriched,R1,0.524,0.587,5,69,1,21,pixel_fallback,1000,1000
+SON,Jamshedpur_IN,Jamshedpur,1.5509520666656726,-1.2591845343238708,drier-enriched,R2,0.947,0.95,6,80,2,18,pixel_fallback,1000,1000
+SON,Dallas_US,Dallas,7.117046946045207,2.579937958891237,wetter-enriched,R1,1.0,0.922,46,325,6,39,spatial_block,1000,1000
+SON,Calgary_CA,Calgary,-1.2748868491024157,-1.8210943826134447,drier-depleted,R1,0.949,0.676,15,129,3,19,pixel_fallback,1000,1000
+SON,Amman_JO,Amman,3.7528140314556415,-1.8194941446516488,drier-enriched,R3,0.978,0.784,12,55,2,20,pixel_fallback,1000,1000
+SON,Belgrade_RS,Belgrade,2.5082457271318503,-0.6867541438852545,drier-enriched,R2,0.726,0.879,5,61,1,24,pixel_fallback,1000,1000
+SON,Nizhniy_Novgorod_RU,Nizhniy Novgorod,20.39857776467156,2.158861503288762,wetter-enriched,outside/unsupported,1.0,1.0,12,435,2,53,pixel_fallback,1000,1000
+DJF,Shanghai_CN,Shanghai,0.548262983413963,-2.872308392719414,drier-enriched,R2,0.549,0.756,363,54,28,25,spatial_block,1000,1000
+DJF,Guangzhou_CN,Guangzhou,1.0722177985019812,-3.069108424177936,drier-enriched,R2,0.818,0.962,176,18,20,10,spatial_block,1000,1000
+DJF,Ho_Chi_Minh_City_VN,Ho Chi Minh City,2.9104211517397687,-4.083828419564757,drier-enriched,R3,0.978,0.654,28,86,5,30,spatial_block,1000,1000
+DJF,Chengdu_CN,Chengdu,-1.5743260529884822,8.469171127429771,wetter-depleted,R2,0.795,0.802,49,72,5,17,spatial_block,1000,1000
+DJF,Lahore_PK,Lahore,-3.692519514792167,-1.2944244239658076,drier-depleted,R2,1.0,0.818,14,77,2,26,pixel_fallback,1000,1000
+DJF,Mumbai_IN,Mumbai,3.113243433965181,5.5009611760271655,wetter-enriched,R1,1.0,1.0,6,68,1,21,pixel_fallback,1000,1000
+DJF,Mexico_City_MX,Mexico City,0.410133994789021,-0.096745411454032,drier-enriched,R1,0.092,0.586,52,24,6,11,spatial_block,1000,1000
+DJF,Karachi_PK,Karachi,6.201790184061508,5.481889036427684,wetter-enriched,R1,1.0,1.0,19,440,4,40,pixel_fallback,1000,1000
+DJF,Tianjin_CN,Tianjin,-22.604542591616397,-7.297798258439547,drier-depleted,R3,1.0,0.841,33,43,5,19,spatial_block,1000,1000
+DJF,Delhi_IN,Delhi,-4.443650234404316,-8.227647435455998,drier-depleted,R2,1.0,1.0,40,113,6,24,spatial_block,1000,1000
+DJF,Wuhan_CN,Wuhan,1.5269327063172966,-2.258590953986198,drier-enriched,R2,0.645,0.745,25,15,5,8,spatial_block,1000,1000
+DJF,Dhaka_BD,Dhaka,-1.2050164324055146,-1.4091679304352067,drier-depleted,R1,0.973,0.873,13,61,3,25,pixel_fallback,1000,1000
+DJF,Seoul_KR,Seoul,-1.683594192450471,-1.580186939764964,drier-depleted,R1,0.894,0.724,30,121,4,22,pixel_fallback,1000,1000
+DJF,Cairo_EG,Cairo,5.099827450363534,-3.665007935564912,drier-enriched,R3,0.978,0.976,24,214,5,36,spatial_block,1000,1000
+DJF,Johannesburg_ZA,Johannesburg,-0.8806583005703601,-2.427179740140408,drier-depleted,R2,0.608,0.649,50,27,7,11,spatial_block,1000,1000
+DJF,Nanjing_CN,Nanjing,2.4442219605023183,1.5579705547917972,wetter-enriched,R1,0.849,0.942,31,37,3,16,pixel_fallback,1000,1000
+DJF,Hangzhou_CN,Hangzhou,14.732931517618994,0.5586434369960815,wetter-enriched,outside/unsupported,0.645,0.615,90,29,12,12,spatial_block,1000,1000
+DJF,New_York_City_US,New York City,-1.2695330099660396,-10.216638360433944,drier-depleted,R2,0.737,0.541,86,84,10,14,spatial_block,1000,1000
+DJF,Bengaluru_IN,Bengaluru,-1.6438746055297315,-2.923720646971798,drier-depleted,R2,1.0,0.817,17,76,4,22,pixel_fallback,1000,1000
+DJF,Hanoi_VN,Hanoi,-0.2068055371591413,-3.0308025478673986,drier-depleted,R2,0.589,0.876,15,23,2,13,pixel_fallback,1000,1000
+DJF,Lima_PE,Lima,-5.581073831881497,3.137672421265114,wetter-depleted,R2,0.986,0.997,10,18,3,11,pixel_fallback,1000,1000
+DJF,Chongqing_CN,Chongqing,12.688662240822836,10.104995150049357,wetter-enriched,R1,1.0,1.0,14,141,4,34,pixel_fallback,1000,1000
+DJF,Baghdad_IQ,Baghdad,2.13525888224072,1.1799804077630605,wetter-enriched,R1,1.0,0.935,18,593,2,52,pixel_fallback,1000,1000
+DJF,Tehran_IR,Tehran,-3.336506770806011,0.1446282704222495,wetter-depleted,R2,0.442,0.678,25,52,4,18,pixel_fallback,1000,1000
+DJF,Hyderabad_IN,Hyderabad,-1.0973713544326813,-1.3842999440479564,drier-depleted,R1,0.992,0.895,19,86,4,26,pixel_fallback,1000,1000
+DJF,Rio_de_Janeiro_BR,Rio de Janeiro,2.437643667610388,-4.366641323009905,drier-enriched,R3,1.0,0.772,20,67,4,13,pixel_fallback,1000,1000
+DJF,Ahmedabad_IN,Ahmedabad,3.815946093440431,2.7946786075822945,wetter-enriched,R1,1.0,1.0,11,242,3,39,pixel_fallback,1000,1000
+DJF,Abidjan_CI,Abidjan,-0.4359402171010913,9.335444854571646,wetter-depleted,R2,0.61,0.631,7,96,3,26,pixel_fallback,1000,1000
+DJF,Sydney_AU,Sydney,0.8095607636434181,4.9257996260286845,wetter-enriched,R1,0.667,0.838,51,61,7,15,spatial_block,1000,1000
+DJF,Melbourne_AU,Melbourne,-1.9009525035214665,-0.0952662930520064,drier-depleted,R1,0.525,0.688,62,134,7,31,spatial_block,1000,1000
+DJF,Dar_es_Salaam_TZ,Dar es Salaam,3.176752468334712,0.5442184132039672,wetter-enriched,R2,0.784,0.418,5,111,2,17,pixel_fallback,1000,1000
+DJF,Harbin_CN,Harbin,6.186389403632461,-1.5940731847926013,drier-enriched,R3,1.0,0.913,17,40,4,20,pixel_fallback,1000,1000
+DJF,Bangkok_TH,Bangkok,4.975926508466216,-4.943462667662245,drier-enriched,R3,1.0,0.987,83,16,11,10,spatial_block,1000,1000
+DJF,Hefei_CN,Hefei,-8.229835704164401,-4.51096229921297,drier-depleted,R2,1.0,0.999,14,25,3,6,pixel_fallback,1000,1000
+DJF,Kano_NG,Kano,11.66339045559232,6.443746266561958,wetter-enriched,R1,1.0,0.996,9,95,2,21,pixel_fallback,1000,1000
+DJF,Santiago_CL,Santiago,-5.630136763049308,1.2887014891417272,wetter-depleted,R2,0.857,0.991,24,30,4,17,pixel_fallback,1000,1000
+DJF,Peshawar_PK,Peshawar,-21.65939147929953,-13.458471505051364,drier-depleted,R3,1.0,1.0,6,95,1,18,pixel_fallback,1000,1000
+DJF,Changchun_CN,Changchun,16.27520474169677,1.249155642321934,wetter-enriched,outside/unsupported,1.0,0.97,20,85,3,19,pixel_fallback,1000,1000
+DJF,Jeddah_SA,Jeddah,5.84579775520811,-2.8626793367492507,drier-enriched,R3,0.97,0.983,12,190,3,21,pixel_fallback,1000,1000
+DJF,Chennai_IN,Chennai,-4.39697928501522,1.121974366305938,wetter-depleted,R2,0.992,1.0,16,144,3,24,pixel_fallback,1000,1000
+DJF,Kolkata_IN,Kolkata,3.332070930043613,1.984990592011321,wetter-enriched,R1,1.0,0.995,20,119,3,22,pixel_fallback,1000,1000
+DJF,Yangon_MM,Yangon,0.934053284320342,-1.6987038650634303,drier-enriched,R2,1.0,0.99,12,731,2,85,pixel_fallback,1000,1000
+DJF,Kabul_AF,Kabul,-2.9138469232964326,1.0613559150195029,wetter-depleted,R2,0.467,0.608,7,29,2,23,pixel_fallback,1000,1000
+DJF,Nairobi_KE,Nairobi,-9.738394368966794,2.7420650974266465,wetter-depleted,R2,0.951,0.941,10,55,2,20,pixel_fallback,1000,1000
+DJF,Zhengzhou_CN,Zhengzhou,7.539492540002442,-1.449349581567106,drier-enriched,R3,0.911,0.892,27,11,4,6,pixel_fallback,1000,1000
+DJF,Bamako_ML,Bamako,-1.760751841448979,0.0044725628449588,wetter-depleted,R1,0.513,0.853,8,575,1,59,pixel_fallback,1000,1000
+DJF,Riyadh_SA,Riyadh,3.56764101328352,7.761570177237746,wetter-enriched,R1,1.0,1.0,20,300,4,43,pixel_fallback,1000,1000
+DJF,Addis_Ababa_ET,Addis Ababa,-15.38092850278204,-3.41594894283206,drier-depleted,R3,0.911,0.708,8,41,2,32,pixel_fallback,1000,1000
+DJF,Kunming_CN,Kunming,5.674056449400467,-5.459346592937588,drier-enriched,R3,0.997,0.988,18,45,3,24,pixel_fallback,1000,1000
+DJF,Zhongshan_CN,Zhongshan,3.226714812502138,-3.3513312776194244,drier-enriched,R3,1.0,0.837,7,29,2,14,pixel_fallback,1000,1000
+DJF,Nanning_CN,Nanning,1.8207370569508607,8.273863777337729,wetter-enriched,R1,0.979,0.993,10,32,2,17,pixel_fallback,1000,1000
+DJF,Shantou_CN,Shantou,-3.5836343251893084,4.9017761444325485,wetter-depleted,R2,0.949,0.972,8,10,2,7,pixel_fallback,1000,1000
+DJF,Los_Angeles_US,Los Angeles,1.522737827365546,0.6204237463111598,wetter-enriched,R1,0.541,0.666,164,11,17,7,spatial_block,1000,1000
+DJF,Faisalabad_PK,Faisalabad,0.1851980894769269,2.113730719277317,wetter-enriched,R1,0.624,1.0,5,145,2,42,pixel_fallback,1000,1000
+DJF,Fuzhou_CN,Fuzhou,11.31491385151125,9.9038098630089,wetter-enriched,R1,0.99,0.979,11,11,3,6,pixel_fallback,1000,1000
+DJF,Ningbo_CN,Ningbo,1.2592907425695614,0.6346914226378467,wetter-enriched,R1,0.553,0.724,26,19,4,11,pixel_fallback,1000,1000
+DJF,Casablanca_MA,Casablanca,5.275431387042971,0.0617988815779084,wetter-enriched,R3,0.521,0.638,7,74,2,19,pixel_fallback,1000,1000
+DJF,Ibadan_NG,Ibadan,-0.5947496284319129,0.589181665580005,wetter-depleted,R1,0.674,1.0,13,261,3,44,pixel_fallback,1000,1000
+DJF,Ankara_TR,Ankara,-0.4742171349029718,-2.0939191804376764,drier-depleted,R2,0.664,0.809,15,207,4,50,pixel_fallback,1000,1000
+DJF,Tangshan_CN,Tangshan,-24.17944640260396,-6.107322184643579,drier-depleted,R3,1.0,0.881,12,30,2,17,pixel_fallback,1000,1000
+DJF,Rawalpindi_PK,Rawalpindi,-2.9919233341978213,0.1092766339295417,wetter-depleted,R2,0.537,0.765,13,73,3,33,pixel_fallback,1000,1000
+DJF,Durban_ZA,Durban,2.4385228702234087,4.107088821477656,wetter-enriched,R1,0.99,0.999,21,32,4,12,pixel_fallback,1000,1000
+DJF,Madrid_ES,Madrid,-4.230532285738548,-1.730171164963941,drier-depleted,R2,0.995,0.95,17,135,3,33,pixel_fallback,1000,1000
+DJF,Pyongyang_KP,Pyongyang,-2.987958220791654,-4.957914330337131,drier-depleted,R2,0.876,0.986,5,264,1,52,pixel_fallback,1000,1000
+DJF,Pune_IN,Pune,0.942181492925272,-0.3459909637134506,drier-enriched,R1,0.483,0.608,16,41,3,17,pixel_fallback,1000,1000
+DJF,Bursa_TR,Bursa,6.170673499397708,-4.90410883196329,drier-enriched,R3,1.0,0.998,7,60,2,23,pixel_fallback,1000,1000
+DJF,Changsha_CN,Changsha,12.255727722998444,6.203293842229535,wetter-enriched,R1,1.0,0.959,21,36,3,13,pixel_fallback,1000,1000
+DJF,Quezon_City_PH,Quezon City,7.500165617240327,7.57654657878138,wetter-enriched,R1,0.978,0.949,5,13,4,10,pixel_fallback,1000,1000
+DJF,Jaipur_IN,Jaipur,2.283574360491599,0.5224975475732033,wetter-enriched,R2,0.702,0.52,9,107,2,27,pixel_fallback,1000,1000
+DJF,Guiyang_CN,Guiyang,2.505195363115263,-0.0846423882784175,drier-enriched,R2,0.412,0.627,9,82,2,35,pixel_fallback,1000,1000
+DJF,UEruemqi_CN,UEruemqi,0.2012248866577692,0.8612600820822562,wetter-enriched,R1,0.41,0.81,13,29,3,12,pixel_fallback,1000,1000
+DJF,Huizhou_CN,Huizhou,5.86320967344605,-1.9808954852414424,drier-enriched,R3,0.81,0.869,5,24,2,13,pixel_fallback,1000,1000
+DJF,Buenos_Aires_AR,Buenos Aires,-5.900750573840696,-4.233568842844938,drier-depleted,R2,1.0,1.0,65,786,7,63,spatial_block,1000,1000
+DJF,Kanpur_IN,Kanpur,-2.977291061635924,-2.2660439594682167,drier-depleted,R2,1.0,0.839,6,664,2,55,pixel_fallback,1000,1000
+DJF,Toronto_CA,Toronto,12.554484636154257,4.04496513427674,wetter-enriched,R1,0.878,0.473,63,106,8,26,spatial_block,1000,1000
+DJF,Brisbane_AU,Brisbane,0.0697382311660561,2.476788371386438,wetter-enriched,R1,0.433,0.772,27,63,5,20,spatial_block,1000,1000
+DJF,Luanda_AO,Luanda,9.352192467790545,5.255801303242524,wetter-enriched,R1,1.0,0.958,10,73,3,14,pixel_fallback,1000,1000
+DJF,Osaka_JP,Osaka,19.34445392521997,5.309367593574473,wetter-enriched,outside/unsupported,1.0,0.956,74,13,10,8,spatial_block,1000,1000
+DJF,Abuja_NG,Abuja,1.729472920182019,0.6200918930829108,wetter-enriched,R1,0.781,0.679,8,63,1,19,pixel_fallback,1000,1000
+DJF,Chicago_US,Chicago,-2.0461862636722685,-13.40492177664033,drier-depleted,R3,0.856,0.957,104,145,11,27,spatial_block,1000,1000
+DJF,Kumasi_GH,Kumasi,2.8681154242230638,7.153072895383253,wetter-enriched,R1,1.0,1.0,11,160,3,41,pixel_fallback,1000,1000
+DJF,Huai_an_CN,Huai'an,-6.988256570185314,-1.7099075876090857,drier-depleted,R2,0.993,0.994,12,94,2,29,pixel_fallback,1000,1000
+DJF,Lucknow_IN,Lucknow,-6.601775943592941,-2.329800193227161,drier-depleted,R2,1.0,1.0,7,563,2,57,pixel_fallback,1000,1000
+DJF,Ouagadougou_BF,Ouagadougou,1.1799800295246712,-0.9009726787977782,drier-enriched,R2,0.997,0.797,11,704,2,62,pixel_fallback,1000,1000
+DJF,Nagpur_IN,Nagpur,-3.634636966910861,-2.4913974614581584,drier-depleted,R2,1.0,0.998,6,192,1,46,pixel_fallback,1000,1000
+DJF,Fortaleza_BR,Fortaleza,4.331462866944776,-0.8681100691228719,drier-enriched,R3,0.922,0.741,9,115,1,20,pixel_fallback,1000,1000
+DJF,Perth_AU,Perth,-1.446080304800461,1.2035331954633783,wetter-depleted,R1,0.928,0.766,30,156,5,20,spatial_block,1000,1000
+DJF,Nanchang_CN,Nanchang,11.423331553085688,6.800575641941259,wetter-enriched,R1,1.0,1.0,17,96,3,23,pixel_fallback,1000,1000
+DJF,Baku_AZ,Baku,9.588675037199408,0.2150921392180856,wetter-enriched,R1,0.585,0.433,6,38,3,9,pixel_fallback,1000,1000
+DJF,Hohhot_CN,Hohhot,-8.047673348067406,-4.096687546575241,drier-depleted,R2,1.0,1.0,10,45,2,15,pixel_fallback,1000,1000
+DJF,Nagoya_JP,Nagoya,10.464421555992343,-0.6758418303368179,drier-enriched,R3,0.707,0.611,115,12,10,5,spatial_block,1000,1000
+DJF,Rome_IT,Rome,13.60199464505763,6.850810173669921,wetter-enriched,R1,1.0,0.943,15,22,2,6,pixel_fallback,1000,1000
+DJF,Houston_US,Houston,0.7592124568618033,-1.0019288180917318,drier-enriched,R2,0.678,0.51,69,637,9,55,spatial_block,1000,1000
+DJF,Mashhad_IR,Mashhad,7.11150979918412,1.608026864634397,wetter-enriched,R3,0.872,0.322,7,31,1,15,pixel_fallback,1000,1000
+DJF,Nantong_CN,Nantong,-2.7446226897683346,-2.7062922213541256,drier-depleted,R2,0.84,0.703,99,51,13,23,spatial_block,1000,1000
+DJF,Lome_TG,Lome,-5.127210945396769,10.809291712164,wetter-depleted,R2,1.0,0.979,8,119,3,31,pixel_fallback,1000,1000
+DJF,Multan_PK,Multan,2.800368726311888,2.109910910071171,wetter-enriched,R1,1.0,1.0,6,495,2,52,pixel_fallback,1000,1000
+DJF,Baotou_CN,Baotou,-2.4527222863736142,-1.5205435139739387,drier-depleted,R1,0.958,0.559,17,76,4,11,pixel_fallback,1000,1000
+DJF,Coimbatore_IN,Coimbatore,-0.0442633564328645,-0.9691177637510644,drier-depleted,R1,0.463,0.621,7,31,2,21,pixel_fallback,1000,1000
+DJF,Port_Harcourt_NG,Port Harcourt,-5.737967708397633,-3.173707433288132,drier-depleted,R2,1.0,1.0,7,298,3,42,pixel_fallback,1000,1000
+DJF,Pretoria_ZA,Pretoria,5.55871996578901,4.596942601565921,wetter-enriched,R1,1.0,0.997,11,50,2,13,pixel_fallback,1000,1000
+DJF,Cordoba_AR,Cordoba,-0.6147973748926603,2.479042443662892,wetter-depleted,R1,0.926,0.994,11,119,2,20,pixel_fallback,1000,1000
+DJF,Aleppo_SY,Aleppo,2.5002553923341395,-2.54034223476934,drier-enriched,R2,0.875,0.609,5,39,2,17,pixel_fallback,1000,1000
+DJF,Weifang_CN,Weifang,-7.1806940887184965,-4.767636883166738,drier-depleted,R2,1.0,0.999,10,60,2,20,pixel_fallback,1000,1000
+DJF,Tashkent_UZ,Tashkent,3.146375294202386,-1.4433319139584595,drier-enriched,R2,0.988,0.646,23,102,3,15,pixel_fallback,1000,1000
+DJF,Ganzhou_CN,Ganzhou,11.24443597265875,13.884730321325357,wetter-enriched,R1,1.0,1.0,5,30,2,16,pixel_fallback,1000,1000
+DJF,Almaty_KZ,Almaty,-6.201348181246942,-2.722757671324237,drier-depleted,R2,0.985,0.914,14,31,3,11,pixel_fallback,1000,1000
+DJF,Khartoum_SD,Khartoum,8.592699582466906,6.588350682671199,wetter-enriched,R1,1.0,1.0,18,552,4,60,pixel_fallback,1000,1000
+DJF,Sapporo_JP,Sapporo,-4.963917345658388,-4.953457005443809,drier-depleted,R2,0.93,0.963,11,16,2,8,pixel_fallback,1000,1000
+DJF,Accra_GH,Accra,-2.251782039490479,20.40145288238017,wetter-depleted,R2,0.994,0.854,28,86,4,20,pixel_fallback,1000,1000
+DJF,Tijuana_MX,Tijuana,12.060302495035728,5.347285262387299,wetter-enriched,R3,1.0,0.128,29,29,6,15,spatial_block,1000,1000
+DJF,Jieyang_CN,Jieyang,4.547397264882392,4.196191333849757,wetter-enriched,R1,0.922,0.896,6,13,2,9,pixel_fallback,1000,1000
+DJF,Jilin_CN,Jilin,9.087579374720804,2.7280771821248675,wetter-enriched,R3,1.0,0.164,9,34,1,10,pixel_fallback,1000,1000
+DJF,Bucharest_RO,Bucharest,-2.2532372165680954,-0.7026808387231565,drier-depleted,R1,0.907,0.738,13,165,3,35,pixel_fallback,1000,1000
+DJF,Kaduna_NG,Kaduna,-1.8760983966015203,0.1910136544118428,wetter-depleted,R1,0.584,0.766,6,249,3,40,pixel_fallback,1000,1000
+DJF,Sharjah_AE,Sharjah,5.79276761916627,5.095774031943183,wetter-enriched,R1,1.0,1.0,12,98,3,26,pixel_fallback,1000,1000
+DJF,Benin_City_NG,Benin City,-2.42947085678658,-5.1089759890390525,drier-depleted,R2,1.0,1.0,8,237,1,36,pixel_fallback,1000,1000
+DJF,Montreal_CA,Montreal,10.73704282544378,1.3336662646095985,wetter-enriched,R1,0.98,0.544,34,145,5,35,spatial_block,1000,1000
+DJF,Maracaibo_VE,Maracaibo,0.8694702839888322,5.573612848754245,wetter-enriched,R1,0.862,0.988,7,517,1,60,pixel_fallback,1000,1000
+DJF,Chaozhou_CN,Chaozhou,-0.574359435099467,0.5977350585047398,wetter-depleted,R1,0.286,0.81,6,10,1,7,pixel_fallback,1000,1000
+DJF,Budapest_HU,Budapest,-4.995215957581735,-8.609222108365701,drier-depleted,R2,1.0,1.0,20,292,3,45,pixel_fallback,1000,1000
+DJF,Vienna_AT,Vienna,-9.59867293244946,-10.175874042259396,drier-depleted,R2,1.0,0.622,12,25,1,12,pixel_fallback,1000,1000
+DJF,Kampala_UG,Kampala,6.325015742073106,-1.7274374430501829,drier-enriched,R3,0.931,0.947,8,82,2,19,pixel_fallback,1000,1000
+DJF,Phoenix_US,Phoenix,-2.9047929629799967,-2.1977331421164155,drier-depleted,R2,0.996,0.648,71,83,8,15,spatial_block,1000,1000
+DJF,Valencia_VE,Valencia,-1.583949325442859,4.612338313483508,wetter-depleted,R2,0.917,0.665,6,42,1,20,pixel_fallback,1000,1000
+DJF,Ludhiana_IN,Ludhiana,-1.3332248424975432,-2.661637145665881,drier-depleted,R2,0.944,0.822,6,11,2,5,pixel_fallback,1000,1000
+DJF,Yancheng_CN,Yancheng,-3.5295305947303746,-0.7976109210587522,drier-depleted,R2,0.872,0.783,14,75,3,27,pixel_fallback,1000,1000
+DJF,Fukuoka_JP,Fukuoka,2.7743016939163283,-6.052927608036365,drier-enriched,R3,0.735,0.583,9,10,2,8,pixel_fallback,1000,1000
+DJF,Taizhou_CN,Taizhou,2.1580316774468717,2.2355884415424225,wetter-enriched,R1,0.793,0.968,9,38,3,12,pixel_fallback,1000,1000
+DJF,Daqing_CN,Daqing,12.6451905390727,1.538992823266748,wetter-enriched,R3,1.0,0.502,7,407,1,49,pixel_fallback,1000,1000
+DJF,Santiago_de_Queretaro_MX,Santiago de Queretaro,1.5048527991379783,8.967745084002882,wetter-enriched,R1,0.972,0.99,6,36,3,21,pixel_fallback,1000,1000
+DJF,Yangzhou_CN,Yangzhou,-1.160032340334368,1.7089855451103575,wetter-depleted,R1,0.625,0.649,15,43,3,19,pixel_fallback,1000,1000
+DJF,Leon_de_los_Aldama_MX,Leon de los Aldama,4.888753284764192,5.891641098931217,wetter-enriched,R1,1.0,1.0,5,74,2,19,pixel_fallback,1000,1000
+DJF,Philadelphia_US,Philadelphia,-0.0510183387861502,-6.993391506724668,drier-depleted,R2,0.486,0.67,40,51,5,12,spatial_block,1000,1000
+DJF,Damascus_SY,Damascus,4.09851090915177,-3.636277182002354,drier-enriched,R3,1.0,0.992,6,76,2,20,pixel_fallback,1000,1000
+DJF,Auckland_NZ,Auckland,-1.7739001829559695,0.5858340184214027,wetter-depleted,R1,0.76,0.912,16,406,3,53,pixel_fallback,1000,1000
+DJF,Isfahan_IR,Isfahan,-20.948986969069267,2.334173751084061,wetter-depleted,outside/unsupported,0.994,0.892,7,129,1,31,pixel_fallback,1000,1000
+DJF,Astana_KZ,Astana,2.2331114142811543,-7.222777055586378,drier-enriched,R3,0.975,0.733,6,631,3,38,pixel_fallback,1000,1000
+DJF,San_Antonio_US,San Antonio,-0.3482986758387483,-3.18677261788612,drier-depleted,R2,0.566,0.987,31,115,5,25,spatial_block,1000,1000
+DJF,Ciudad_Juarez_MX,Ciudad Juarez,-0.403915614811865,-1.7300330763600635,drier-depleted,R1,0.704,0.591,15,67,2,13,pixel_fallback,1000,1000
+DJF,Porto_Alegre_BR,Porto Alegre,1.5941604563990666,0.4125575989586741,wetter-enriched,R1,0.71,0.835,7,525,2,55,pixel_fallback,1000,1000
+DJF,Yinchuan_CN,Yinchuan,25.793833365791897,3.326092922035829,wetter-enriched,outside/unsupported,1.0,1.0,6,107,1,17,pixel_fallback,1000,1000
+DJF,Asuncion_PY,Asuncion,-5.056803544594871,-0.3006211030922369,drier-depleted,R2,0.781,1.0,12,476,2,51,pixel_fallback,1000,1000
+DJF,Zapopan_MX,Zapopan,-0.6138924180027914,1.7889623680164355,wetter-depleted,R1,0.607,0.905,20,59,4,34,pixel_fallback,1000,1000
+DJF,Adelaide_AU,Adelaide,5.545738685055767,1.723333028122961,wetter-enriched,R1,0.993,0.836,21,446,2,56,pixel_fallback,1000,1000
+DJF,Cixi_CN,Cixi,12.30555152726484,-0.8880548403936338,drier-enriched,R3,0.693,0.458,15,30,3,15,pixel_fallback,1000,1000
+DJF,Kayseri_TR,Kayseri,1.302813472679475,-3.753755904655748,drier-enriched,R2,0.929,0.947,5,149,2,47,pixel_fallback,1000,1000
+DJF,Kaifeng_CN,Kaifeng,5.81123520522894,3.9082351002215328,wetter-enriched,R1,1.0,0.988,6,11,3,6,pixel_fallback,1000,1000
+DJF,Karaj_IR,Karaj,-4.257896113014738,-5.339504057656613,drier-depleted,R2,0.962,0.913,5,37,1,17,pixel_fallback,1000,1000
+DJF,Kathmandu_NP,Kathmandu,-4.85257166723369,-8.966190683060514,drier-depleted,R2,0.928,0.663,5,31,1,20,pixel_fallback,1000,1000
+DJF,Baoji_CN,Baoji,-24.376696451681084,-19.75208082619378,drier-depleted,R3,1.0,0.93,5,10,2,5,pixel_fallback,1000,1000
+DJF,Suqian_CN,Suqian,-1.5906228064125685,-4.148669525645479,drier-depleted,R2,0.828,0.996,5,65,2,21,pixel_fallback,1000,1000
+DJF,Liuzhou_CN,Liuzhou,4.42505861497196,1.6316663472012518,wetter-enriched,R1,0.881,0.69,7,34,2,16,pixel_fallback,1000,1000
+DJF,Konya_TR,Konya,2.862049335518776,-3.087407559940589,drier-enriched,R3,1.0,0.603,8,358,2,45,pixel_fallback,1000,1000
+DJF,Agra_IN,Agra,-7.989526346973065,-3.265433797724765,drier-depleted,R2,1.0,1.0,5,628,2,78,pixel_fallback,1000,1000
+DJF,Tabriz_IR,Tabriz,2.6302405847449397,-3.3031741218041786,drier-enriched,R3,0.91,0.509,5,62,1,34,pixel_fallback,1000,1000
+DJF,Gwangju_KR,Gwangju,1.050193353766076,6.24735295239835,wetter-enriched,R1,0.712,0.888,6,23,1,11,pixel_fallback,1000,1000
+DJF,N_Djamena_TD,N'Djamena,-0.4542839409948271,-3.809897927380397,drier-depleted,R2,0.708,1.0,5,967,2,67,pixel_fallback,1000,1000
+DJF,Jamshedpur_IN,Jamshedpur,4.74435491602874,3.6423673653654314,wetter-enriched,R1,1.0,1.0,6,80,2,18,pixel_fallback,1000,1000
+DJF,Dallas_US,Dallas,5.501578249413313,0.4911886234830388,wetter-enriched,R1,0.813,0.407,46,325,6,39,spatial_block,1000,1000
+DJF,Taguig_PH,Taguig,-0.7442608883564503,1.8163596822682535,wetter-depleted,R1,0.644,0.647,9,12,1,9,pixel_fallback,1000,1000
+DJF,Yaounde_CM,Yaounde,2.654681463082582,0.5671291497695782,wetter-enriched,R2,0.689,0.457,6,85,2,22,pixel_fallback,1000,1000
+DJF,Amman_JO,Amman,9.550964844419012,0.5554719043479345,wetter-enriched,R3,0.722,0.477,12,55,2,20,pixel_fallback,1000,1000
+DJF,Belgrade_RS,Belgrade,-2.713101904001121,-0.3200026539198443,drier-depleted,R2,0.771,0.553,5,61,1,24,pixel_fallback,1000,1000

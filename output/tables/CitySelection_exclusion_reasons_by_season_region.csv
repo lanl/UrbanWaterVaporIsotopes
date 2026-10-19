@@ -1,0 +1,28 @@
+season,broad_region,failure_code,failure_reason,n_excluded
+DJF,Unknown,city_prefilter,No usable annual centroid reference pixel,28
+DJF,Unknown,controls_elev,<10 controls after elevation matching,27
+DJF,Unknown,controls_water,<10 controls after major-water-body-distance matching,11
+DJF,Unknown,duplicate,Duplicate GeoNames candidate for same urban footprint,31
+DJF,Unknown,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,33
+DJF,Unknown,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,106
+JJA,Unknown,city_prefilter,No usable annual centroid reference pixel,28
+JJA,Unknown,controls_elev,<10 controls after elevation matching,19
+JJA,Unknown,controls_radius,<10 low-settlement controls within 150 km,11
+JJA,Unknown,controls_water,<10 controls after major-water-body-distance matching,9
+JJA,Unknown,duplicate,Duplicate GeoNames candidate for same urban footprint,27
+JJA,Unknown,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,79
+JJA,Unknown,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,105
+MAM,Unknown,city_prefilter,No usable annual centroid reference pixel,28
+MAM,Unknown,controls_elev,<10 controls after elevation matching,28
+MAM,Unknown,controls_radius,<10 low-settlement controls within 150 km,5
+MAM,Unknown,controls_water,<10 controls after major-water-body-distance matching,15
+MAM,Unknown,duplicate,Duplicate GeoNames candidate for same urban footprint,29
+MAM,Unknown,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,24
+MAM,Unknown,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,104
+SON,Unknown,city_prefilter,No usable annual centroid reference pixel,28
+SON,Unknown,controls_elev,<10 controls after elevation matching,32
+SON,Unknown,controls_radius,<10 low-settlement controls within 150 km,5
+SON,Unknown,controls_water,<10 controls after major-water-body-distance matching,12
+SON,Unknown,duplicate,Duplicate GeoNames candidate for same urban footprint,30
+SON,Unknown,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,24
+SON,Unknown,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,99

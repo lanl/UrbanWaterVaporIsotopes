@@ -1,0 +1,5 @@
+Group	n city-seasons	Same quadrant median [IQR]	Same quadrant >=80%	Same regime median [IQR]	Same regime >=80%	Median pixels urban/rural	Median blocks urban/rural
+wetter-enriched	196	98% [79-100%]	74%	97% [74-100%]	72%	12/85	2/21
+drier-enriched	179	92% [72-100%]	66%	82% [69-95%]	54%	14/61	3/20
+drier-depleted	159	97% [81-100%]	75%	91% [75-100%]	69%	12/76	3/22
+wetter-depleted	89	91% [67-99%]	61%	89% [72-99%]	61%	12/73	3/20

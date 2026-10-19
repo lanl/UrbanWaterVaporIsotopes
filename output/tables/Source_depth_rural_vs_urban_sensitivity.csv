@@ -1,0 +1,17 @@
+metric,value
+n_draws,500000.0
+n_valid_rural_depth,464066.0
+n_valid_urban_depth,463684.0
+n_valid_both,463684.0
+fraction_valid_rural_depth,0.928132
+fraction_valid_urban_depth,0.927368
+fraction_valid_both,0.927368
+median_signed_change_delta_dD_permil,-0.41798140263471595
+median_abs_change_delta_dD_permil,0.7344094370734808
+p90_abs_change_delta_dD_permil,4.52079994433434
+p95_abs_change_delta_dD_permil,7.092641211320507
+median_signed_change_delta_H2O_pct,-0.6986875202746605
+median_abs_change_delta_H2O_pct,1.0821509995777872
+p90_abs_change_delta_H2O_pct,4.738833664229755
+p95_abs_change_delta_H2O_pct,6.584375827568928
+quadrant_agreement_fraction,0.9076461555714668

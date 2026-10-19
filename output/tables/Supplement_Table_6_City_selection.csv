@@ -1,0 +1,46 @@
+scope,stage_order,selection_stage,n_remaining,n_excluded_at_stage,fraction_initial_remaining
+MAM,0,Initial candidate cities,400,0,1.0
+MAM,1,Annual centroid reference pixel available,372,28,0.93
+MAM,2,>=5 urban pixels with usable seasonal data,348,24,0.87
+MAM,3,Connected urban footprint identified,348,0,0.87
+MAM,4,>=5 seasonally supported urban pixels,244,104,0.61
+MAM,5,>=10 low-settlement controls within 150 km,239,5,0.5975
+MAM,6,>=10 controls after elevation matching,211,28,0.5275
+MAM,7,>=10 controls after major-water-body matching,196,15,0.49
+MAM,8,Unique connected urban component,167,29,0.4175
+JJA,0,Initial candidate cities,400,0,1.0
+JJA,1,Annual centroid reference pixel available,372,28,0.93
+JJA,2,>=5 urban pixels with usable seasonal data,293,79,0.7325
+JJA,3,Connected urban footprint identified,293,0,0.7325
+JJA,4,>=5 seasonally supported urban pixels,188,105,0.47
+JJA,5,>=10 low-settlement controls within 150 km,177,11,0.4425
+JJA,6,>=10 controls after elevation matching,158,19,0.395
+JJA,7,>=10 controls after major-water-body matching,149,9,0.3725
+JJA,8,Unique connected urban component,122,27,0.305
+SON,0,Initial candidate cities,400,0,1.0
+SON,1,Annual centroid reference pixel available,372,28,0.93
+SON,2,>=5 urban pixels with usable seasonal data,348,24,0.87
+SON,3,Connected urban footprint identified,348,0,0.87
+SON,4,>=5 seasonally supported urban pixels,249,99,0.6225
+SON,5,>=10 low-settlement controls within 150 km,244,5,0.61
+SON,6,>=10 controls after elevation matching,212,32,0.53
+SON,7,>=10 controls after major-water-body matching,200,12,0.5
+SON,8,Unique connected urban component,170,30,0.425
+DJF,0,Initial candidate cities,400,0,1.0
+DJF,1,Annual centroid reference pixel available,372,28,0.93
+DJF,2,>=5 urban pixels with usable seasonal data,339,33,0.8475
+DJF,3,Connected urban footprint identified,339,0,0.8475
+DJF,4,>=5 seasonally supported urban pixels,233,106,0.5825
+DJF,5,>=10 low-settlement controls within 150 km,233,0,0.5825
+DJF,6,>=10 controls after elevation matching,206,27,0.515
+DJF,7,>=10 controls after major-water-body matching,195,11,0.4875
+DJF,8,Unique connected urban component,164,31,0.41
+ALL_CITY_SEASONS,0,Initial candidate cities,1600,0,1.0
+ALL_CITY_SEASONS,1,Annual centroid reference pixel available,1488,112,0.93
+ALL_CITY_SEASONS,2,>=5 urban pixels with usable seasonal data,1328,160,0.83
+ALL_CITY_SEASONS,3,Connected urban footprint identified,1328,0,0.83
+ALL_CITY_SEASONS,4,>=5 seasonally supported urban pixels,914,414,0.57125
+ALL_CITY_SEASONS,5,>=10 low-settlement controls within 150 km,893,21,0.558125
+ALL_CITY_SEASONS,6,>=10 controls after elevation matching,787,106,0.491875
+ALL_CITY_SEASONS,7,>=10 controls after major-water-body matching,740,47,0.4625
+ALL_CITY_SEASONS,8,Unique connected urban component,623,117,0.389375

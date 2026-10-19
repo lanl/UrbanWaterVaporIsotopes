@@ -1,0 +1,8 @@
+Scenario,Changed thresholds,n,Overlap with base,Median H2O shift signed [abs.],Median deltaD shift signed [abs.],Same quadrant,Same regime,Median px urban/rural
+Base,urban>=50; rural<=1; dist<=150; elev<=50; coast<=50,623,623/623 (100%),+0.00% [0.00%],+0.00‰ [0.00‰],100%,100%,12/75
+Stricter matching,dist<=100; elev<=30; coast<=30,411,411/623 (66%),-0.20% [1.15%],-0.23‰ [1.03‰],79%,78%,13/33
+Looser matching,dist<=200; elev<=100; coast<=100,725,623/623 (100%),+0.55% [1.40%],+0.35‰ [1.33‰],73%,71%,12/272
+Very rural controls,rural<=0.5,573,573/623 (92%),+0.02% [0.32%],+0.09‰ [0.32‰],92%,91%,12/55
+Expanded rural controls,rural<=2,663,623/623 (100%),+0.02% [0.30%],-0.11‰ [0.31‰],91%,89%,12/98
+Broader urban footprint,urban>=30,797,589/623 (95%),+0.02% [0.50%],+0.04‰ [0.56‰],87%,84%,20/74
+Stricter urban footprint,urban>=70,416,391/623 (63%),+0.03% [0.43%],-0.03‰ [0.63‰],87%,85%,9/76

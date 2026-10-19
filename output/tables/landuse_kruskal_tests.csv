@@ -1,0 +1,6 @@
+scope,n_groups,groups,n_total,kruskal_H,p_value
+overall_city_mean,5,forest;open_vegetation;cropland;wetland;barren,197,13.19252371551704,0.010372413011046617
+MAM,4,forest;open_vegetation;cropland;barren,167,9.666264876224432,0.021626804927000143
+JJA,4,forest;open_vegetation;cropland;barren,126,6.7223180435779,0.08129531733500825
+SON,4,forest;open_vegetation;cropland;barren,170,10.59169303091403,0.014151618265993
+DJF,5,forest;open_vegetation;cropland;wetland;barren,169,5.393026420235174,0.24929378702935948

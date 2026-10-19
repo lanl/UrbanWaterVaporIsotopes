@@ -1,0 +1,18 @@
+Group,Parameter,Range / value
+Background state,"Q_BL,r",2-22 g kg^-1
+Background state,q_ent,1-10 g kg^-1
+Background state,"H_BL,r",500-3000 m
+Urban dynamics,Delta h_BL,0-1000 m
+Urban dynamics,f_FT,0-1
+FT structure,H_q,1500-3000 m
+FT structure,Delta deltaD_grad,60-130 permil
+Isotope residuals,epsilon_BL,-15 to 15 permil
+Isotope residuals,epsilon_ent,-25 to 25 permil
+Source anomaly,Delta q_ET,-2.5 to 1 g kg^-1
+Source anomaly,Delta q_util,-0.5 to 0.5 g kg^-1
+Source anomaly,Delta q_comb,0-0.05 g kg^-1
+Source isotope,Delta_ET,-40 to 100 permil
+Source isotope,deltaD_comb,-250 to -80 permil
+Source isotope,deltaD_util,-150 to 10 permil
+Fixed constants,alpha_eff; q_ref; deltaD_ref,1.1; 10 g kg^-1; -100 permil
+Fixed constant,z_top,9000 m

@@ -1,0 +1,13 @@
+Figure-2 city CSV: /Users/a391980/Downloads/UrbanWaterVaporIsotopes/output/tables/Figure_2_cityseason_results.csv
+Figure-2 masks: /Users/a391980/Downloads/UrbanWaterVaporIsotopes/output/tables/Figure_2_city_grid_masks.csv
+Tree cache: /Users/a391980/Downloads/UrbanWaterVaporIsotopes/output/cache/tree_93fd74465e8aec7e.pkl
+TROPOMI climatology: /Users/a391980/Downloads/UrbanWaterVaporIsotopes/source_data/TROPOMI_HDO_CLEAR_p05_quadratic_climatology.nc
+City-seasons: 623
+Internal regimes: 3
+Displayed regimes: 3
+Bootstrap draws per city-season: 1000
+Spatial block size: 25.0 km
+Minimum blocks for block bootstrap: 5 in both urban and rural samples
+deltaD conversion: x1000 (fraction -> permil)
+Maximum absolute deltaD reconstruction error: 3.5527136788e-15 permil
+Maximum absolute H2O reconstruction error: 3.5527136788e-15 percent

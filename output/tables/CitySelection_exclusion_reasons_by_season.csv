@@ -1,0 +1,28 @@
+season,failure_code,failure_reason,n_excluded
+DJF,city_prefilter,No usable annual centroid reference pixel,28
+DJF,controls_elev,<10 controls after elevation matching,27
+DJF,controls_water,<10 controls after major-water-body-distance matching,11
+DJF,duplicate,Duplicate GeoNames candidate for same urban footprint,31
+DJF,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,33
+DJF,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,106
+JJA,city_prefilter,No usable annual centroid reference pixel,28
+JJA,controls_elev,<10 controls after elevation matching,19
+JJA,controls_radius,<10 low-settlement controls within 150 km,11
+JJA,controls_water,<10 controls after major-water-body-distance matching,9
+JJA,duplicate,Duplicate GeoNames candidate for same urban footprint,27
+JJA,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,79
+JJA,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,105
+MAM,city_prefilter,No usable annual centroid reference pixel,28
+MAM,controls_elev,<10 controls after elevation matching,28
+MAM,controls_radius,<10 low-settlement controls within 150 km,5
+MAM,controls_water,<10 controls after major-water-body-distance matching,15
+MAM,duplicate,Duplicate GeoNames candidate for same urban footprint,29
+MAM,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,24
+MAM,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,104
+SON,city_prefilter,No usable annual centroid reference pixel,28
+SON,controls_elev,<10 controls after elevation matching,32
+SON,controls_radius,<10 low-settlement controls within 150 km,5
+SON,controls_water,<10 controls after major-water-body-distance matching,12
+SON,duplicate,Duplicate GeoNames candidate for same urban footprint,30
+SON,urban_any,<5 urban pixels (>=50% settlement) with usable seasonal data,24
+SON,urban_support,<5 urban pixels satisfying seasonal TROPOMI support,99

@@ -1,0 +1,4 @@
+regime_id,display_id,is_top,n_draws,fraction,rule
+1,3,True,738153,0.1476306,"IF Δq_ET ≤ -0.807 AND Q_BL,r ≤ 8.078 THEN R1"
+2,2,True,1693099,0.3386198,"IF Δq_ET ≤ -0.807 AND Q_BL,r > 8.078 THEN R2"
+0,1,True,2568748,0.5137496,IF Δq_ET > -0.807 THEN R0

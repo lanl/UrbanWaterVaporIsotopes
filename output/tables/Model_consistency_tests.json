@@ -1,0 +1,14 @@
+{
+  "fixed_vector_reference_agreement_pass": true,
+  "general_column_closure_pass": true,
+  "general_delta_I_lhs": 2022.2999999999993,
+  "general_delta_I_rhs": 2022.2999999999997,
+  "general_delta_M_lhs": 2280.0,
+  "general_delta_M_rhs": 2280.0,
+  "pure_entrainment_conservation_pass": true,
+  "rayleigh_anchor_pass": true,
+  "rayleigh_at_qref_permil": -99.99999999999997,
+  "zero_delta_H2O_pct": 0.0,
+  "zero_delta_dD_permil": 0.0,
+  "zero_perturbation_pass": true
+}

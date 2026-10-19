@@ -1,0 +1,9 @@
+Broad category used in analysis,IGBP class(es),Original MODIS/IGBP classes included
+Forest,1-5,Evergreen needleleaf forest; evergreen broadleaf forest; deciduous needleleaf forest; deciduous broadleaf forest; mixed forest
+Shrub/grass/savanna,6-10,Closed shrublands; open shrublands; woody savannas; savannas; grasslands
+Cropland,"12, 14",Croplands; cropland/natural-vegetation mosaic
+Wetland,11,Permanent wetlands
+Barren/sparse,16,Barren or sparsely vegetated
+Snow/ice,15,Permanent snow and ice
+Urban/built-up,13,Urban and built-up land - excluded from rural characterization
+Water,17,Water - excluded from rural characterization

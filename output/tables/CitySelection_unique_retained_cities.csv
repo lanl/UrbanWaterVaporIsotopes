@@ -1,0 +1,193 @@
+candidate_rank,city_key,name,country_code,broad_region,population,n_retained_seasons
+1,Shanghai_CN,Shanghai,CN,Unknown,24874500,4
+4,Guangzhou_CN,Guangzhou,CN,Unknown,16096724,2
+5,Kinshasa_CD,Kinshasa,CD,Unknown,16000000,1
+8,Ho_Chi_Minh_City_VN,Ho Chi Minh City,VN,Unknown,14002598,1
+9,Chengdu_CN,Chengdu,CN,Unknown,13568357,3
+10,Lahore_PK,Lahore,PK,Unknown,13004135,4
+11,Mumbai_IN,Mumbai,IN,Unknown,12691836,3
+12,Sao_Paulo_BR,Sao Paulo,BR,Unknown,12400232,3
+13,Mexico_City_MX,Mexico City,MX,Unknown,12294193,4
+14,Karachi_PK,Karachi,PK,Unknown,11624219,3
+15,Tianjin_CN,Tianjin,CN,Unknown,11090314,4
+16,Delhi_IN,Delhi,IN,Unknown,11034555,3
+17,Wuhan_CN,Wuhan,CN,Unknown,10392693,3
+18,Moscow_RU,Moscow,RU,Unknown,10381222,3
+19,Dhaka_BD,Dhaka,BD,Unknown,10356500,3
+20,Seoul_KR,Seoul,KR,Unknown,10349312,3
+23,Cairo_EG,Cairo,EG,Unknown,9606916,4
+25,Johannesburg_ZA,Johannesburg,ZA,Unknown,9418183,4
+26,Nanjing_CN,Nanjing,CN,Unknown,9314685,3
+27,Hangzhou_CN,Hangzhou,CN,Unknown,9236032,4
+29,London_GB,London,GB,Unknown,8961989,3
+30,New_York_City_US,New York City,US,Unknown,8804190,4
+31,Jakarta_ID,Jakarta,ID,Unknown,8540121,1
+32,Bengaluru_IN,Bengaluru,IN,Unknown,8495492,3
+33,Hanoi_VN,Hanoi,VN,Unknown,8053663,2
+35,Lima_PE,Lima,PE,Unknown,7737002,4
+37,Chongqing_CN,Chongqing,CN,Unknown,7457599,3
+39,Baghdad_IQ,Baghdad,IQ,Unknown,7216000,4
+42,Tehran_IR,Tehran,IR,Unknown,7153309,4
+44,Hyderabad_IN,Hyderabad,IN,Unknown,6993262,3
+45,Rio_de_Janeiro_BR,Rio de Janeiro,BR,Unknown,6747815,4
+47,Ahmedabad_IN,Ahmedabad,IN,Unknown,6357693,3
+48,Abidjan_CI,Abidjan,CI,Unknown,6321017,1
+49,Sydney_AU,Sydney,AU,Unknown,5638830,4
+51,Melbourne_AU,Melbourne,AU,Unknown,5435590,4
+52,Dar_es_Salaam_TZ,Dar es Salaam,TZ,Unknown,5383728,2
+53,Saint_Petersburg_RU,Saint Petersburg,RU,Unknown,5351935,3
+55,Harbin_CN,Harbin,CN,Unknown,5242897,4
+56,Bangkok_TH,Bangkok,TH,Unknown,5104476,2
+57,Hefei_CN,Hefei,CN,Unknown,5050000,3
+59,Kano_NG,Kano,NG,Unknown,4910000,4
+60,Santiago_CL,Santiago,CL,Unknown,4837295,4
+62,Peshawar_PK,Peshawar,PK,Unknown,4758762,4
+63,Changchun_CN,Changchun,CN,Unknown,4714996,4
+64,Jeddah_SA,Jeddah,SA,Unknown,4697000,4
+65,Chennai_IN,Chennai,IN,Unknown,4681087,3
+66,Kolkata_IN,Kolkata,IN,Unknown,4631392,3
+69,Yangon_MM,Yangon,MM,Unknown,4477638,2
+71,Kabul_AF,Kabul,AF,Unknown,4434550,4
+72,Nairobi_KE,Nairobi,KE,Unknown,4397073,1
+77,Zhengzhou_CN,Zhengzhou,CN,Unknown,4253913,4
+78,Bamako_ML,Bamako,ML,Unknown,4227569,3
+79,Riyadh_SA,Riyadh,SA,Unknown,4205961,4
+83,Addis_Ababa_ET,Addis Ababa,ET,Unknown,3860000,3
+84,Kunming_CN,Kunming,CN,Unknown,3855346,2
+85,Zhongshan_CN,Zhongshan,CN,Unknown,3841873,2
+86,Nanning_CN,Nanning,CN,Unknown,3839800,3
+87,Shantou_CN,Shantou,CN,Unknown,3838900,2
+88,Los_Angeles_US,Los Angeles,US,Unknown,3820914,4
+89,Faisalabad_PK,Faisalabad,PK,Unknown,3800193,4
+92,Fuzhou_CN,Fuzhou,CN,Unknown,3740000,3
+93,Ningbo_CN,Ningbo,CN,Unknown,3731203,3
+94,Casablanca_MA,Casablanca,MA,Unknown,3665954,4
+95,Ibadan_NG,Ibadan,NG,Unknown,3649000,1
+97,Ankara_TR,Ankara,TR,Unknown,3517182,4
+99,Berlin_DE,Berlin,DE,Unknown,3426354,3
+100,Tangshan_CN,Tangshan,CN,Unknown,3372102,4
+101,Rawalpindi_PK,Rawalpindi,PK,Unknown,3357612,4
+103,Durban_ZA,Durban,ZA,Unknown,3338026,4
+106,Madrid_ES,Madrid,ES,Unknown,3255944,4
+107,Pyongyang_KP,Pyongyang,KP,Unknown,3222000,3
+109,Pune_IN,Pune,IN,Unknown,3124458,3
+110,Bursa_TR,Bursa,TR,Unknown,3101833,4
+111,Changsha_CN,Changsha,CN,Unknown,3093980,3
+112,Quezon_City_PH,Quezon City,PH,Unknown,3084270,2
+113,Jaipur_IN,Jaipur,IN,Unknown,3046163,3
+114,Guiyang_CN,Guiyang,CN,Unknown,3037159,3
+115,UEruemqi_CN,UEruemqi,CN,Unknown,3029372,4
+120,Kyiv_UA,Kyiv,UA,Unknown,2952301,3
+122,Huizhou_CN,Huizhou,CN,Unknown,2900113,3
+123,Buenos_Aires_AR,Buenos Aires,AR,Unknown,2891082,4
+126,Kanpur_IN,Kanpur,IN,Unknown,2823249,3
+127,Toronto_CA,Toronto,CA,Unknown,2794356,4
+129,Brisbane_AU,Brisbane,AU,Unknown,2780063,4
+130,Luanda_AO,Luanda,AO,Unknown,2776168,4
+131,Osaka_JP,Osaka,JP,Unknown,2753862,4
+137,Belo_Horizonte_BR,Belo Horizonte,BR,Unknown,2721564,3
+141,Abuja_NG,Abuja,NG,Unknown,2690000,1
+143,Chicago_US,Chicago,US,Unknown,2664452,4
+151,Kumasi_GH,Kumasi,GH,Unknown,2544530,1
+154,Huai_an_CN,Huai'an,CN,Unknown,2494013,4
+156,Lucknow_IN,Lucknow,IN,Unknown,2472011,3
+157,Ouagadougou_BF,Ouagadougou,BF,Unknown,2415266,4
+158,Nagpur_IN,Nagpur,IN,Unknown,2405665,3
+159,Fortaleza_BR,Fortaleza,BR,Unknown,2400000,4
+161,Perth_AU,Perth,AU,Unknown,2384371,4
+164,Nanchang_CN,Nanchang,CN,Unknown,2357839,3
+165,Baku_AZ,Baku,AZ,Unknown,2351300,4
+166,Hohhot_CN,Hohhot,CN,Unknown,2350000,4
+167,Nagoya_JP,Nagoya,JP,Unknown,2332176,4
+168,Rome_IT,Rome,IT,Unknown,2318895,4
+170,Houston_US,Houston,US,Unknown,2314157,4
+171,Mashhad_IR,Mashhad,IR,Unknown,2307177,4
+173,Nantong_CN,Nantong,CN,Unknown,2273326,4
+178,Manaus_BR,Manaus,BR,Unknown,2219580,1
+179,Lusaka_ZM,Lusaka,ZM,Unknown,2212301,3
+180,Brasilia_BR,Brasilia,BR,Unknown,2207718,2
+183,Lome_TG,Lome,TG,Unknown,2188376,2
+184,Multan_PK,Multan,PK,Unknown,2169915,4
+187,Baotou_CN,Baotou,CN,Unknown,2150000,4
+188,Paris_FR,Paris,FR,Unknown,2138551,3
+189,Coimbatore_IN,Coimbatore,IN,Unknown,2136916,2
+191,Port_Harcourt_NG,Port Harcourt,NG,Unknown,2120000,1
+192,Pretoria_ZA,Pretoria,ZA,Unknown,2112693,4
+193,Cordoba_AR,Cordoba,AR,Unknown,2106734,4
+195,Aleppo_SY,Aleppo,SY,Unknown,2098210,4
+198,Weifang_CN,Weifang,CN,Unknown,2044028,4
+200,La_Paz_BO,La Paz,BO,Unknown,2004652,2
+204,Tashkent_UZ,Tashkent,UZ,Unknown,1978028,4
+205,Ganzhou_CN,Ganzhou,CN,Unknown,1977253,2
+206,Almaty_KZ,Almaty,KZ,Unknown,1977011,4
+207,Khartoum_SD,Khartoum,SD,Unknown,1974647,4
+208,Hamburg_DE,Hamburg,DE,Unknown,1973896,3
+209,Sapporo_JP,Sapporo,JP,Unknown,1973832,3
+211,Accra_GH,Accra,GH,Unknown,1963264,2
+212,Curitiba_BR,Curitiba,BR,Unknown,1948626,3
+217,Tijuana_MX,Tijuana,MX,Unknown,1922523,4
+220,Jieyang_CN,Jieyang,CN,Unknown,1899394,3
+221,Jilin_CN,Jilin,CN,Unknown,1895865,3
+223,Bucharest_RO,Bucharest,RO,Unknown,1877155,4
+229,Kaduna_NG,Kaduna,NG,Unknown,1850000,3
+233,Santa_Cruz_de_la_Sierra_BO,Santa Cruz de la Sierra,BO,Unknown,1831434,3
+239,Sharjah_AE,Sharjah,AE,Unknown,1800000,4
+242,Benin_City_NG,Benin City,NG,Unknown,1782000,1
+245,Montreal_CA,Montreal,CA,Unknown,1762949,4
+247,Maracaibo_VE,Maracaibo,VE,Unknown,1752602,4
+248,Chaozhou_CN,Chaozhou,CN,Unknown,1750945,2
+249,Minsk_BY,Minsk,BY,Unknown,1742124,3
+250,Budapest_HU,Budapest,HU,Unknown,1741041,4
+256,Warsaw_PL,Warsaw,PL,Unknown,1702139,3
+260,Vienna_AT,Vienna,AT,Unknown,1691468,4
+264,Kampala_UG,Kampala,UG,Unknown,1680600,2
+270,Phoenix_US,Phoenix,US,Unknown,1650070,4
+274,Valencia_VE,Valencia,VE,Unknown,1619470,1
+275,Ludhiana_IN,Ludhiana,IN,Unknown,1618879,3
+276,Yancheng_CN,Yancheng,CN,Unknown,1615717,4
+277,Novosibirsk_RU,Novosibirsk,RU,Unknown,1612833,3
+279,Fukuoka_JP,Fukuoka,JP,Unknown,1612392,3
+280,Taizhou_CN,Taizhou,CN,Unknown,1607108,3
+281,Daqing_CN,Daqing,CN,Unknown,1604027,4
+283,Santiago_de_Queretaro_MX,Santiago de Queretaro,MX,Unknown,1594212,4
+285,Yangzhou_CN,Yangzhou,CN,Unknown,1584237,3
+286,Leon_de_los_Aldama_MX,Leon de los Aldama,MX,Unknown,1579803,4
+288,Philadelphia_US,Philadelphia,US,Unknown,1573916,4
+291,Damascus_SY,Damascus,SY,Unknown,1569394,4
+296,Auckland_NZ,Auckland,NZ,Unknown,1547200,4
+297,Isfahan_IR,Isfahan,IR,Unknown,1547164,4
+299,Astana_KZ,Astana,KZ,Unknown,1544142,4
+300,Harare_ZW,Harare,ZW,Unknown,1542813,3
+304,Goiania_BR,Goiania,BR,Unknown,1536097,2
+305,San_Antonio_US,San Antonio,US,Unknown,1526656,4
+307,Stockholm_SE,Stockholm,SE,Unknown,1515017,3
+308,Ciudad_Juarez_MX,Ciudad Juarez,MX,Unknown,1512450,4
+313,Yekaterinburg_RU,Yekaterinburg,RU,Unknown,1495066,3
+314,Porto_Alegre_BR,Porto Alegre,BR,Unknown,1488252,4
+315,Yinchuan_CN,Yinchuan,CN,Unknown,1487579,4
+319,Asuncion_PY,Asuncion,PY,Unknown,1482200,4
+321,Zapopan_MX,Zapopan,MX,Unknown,1476491,4
+323,Adelaide_AU,Adelaide,AU,Unknown,1469163,4
+328,Cixi_CN,Cixi,CN,Unknown,1457510,3
+331,Kayseri_TR,Kayseri,TR,Unknown,1452458,4
+332,Kaifeng_CN,Kaifeng,CN,Unknown,1451741,4
+334,Karaj_IR,Karaj,IR,Unknown,1448075,4
+335,Kathmandu_NP,Kathmandu,NP,Unknown,1442271,3
+337,Baoji_CN,Baoji,CN,Unknown,1437802,3
+338,Suqian_CN,Suqian,CN,Unknown,1437685,4
+339,Liuzhou_CN,Liuzhou,CN,Unknown,1436599,3
+341,Konya_TR,Konya,TR,Unknown,1433861,4
+343,Agra_IN,Agra,IN,Unknown,1430055,3
+345,Tabriz_IR,Tabriz,IR,Unknown,1424641,4
+346,Kharkiv_UA,Kharkiv,UA,Unknown,1421125,3
+352,Gwangju_KR,Gwangju,KR,Unknown,1401235,3
+363,N_Djamena_TD,N'Djamena,TD,Unknown,1359526,4
+367,Antananarivo_MG,Antananarivo,MG,Unknown,1349501,3
+370,Jamshedpur_IN,Jamshedpur,IN,Unknown,1339438,3
+374,Dallas_US,Dallas,US,Unknown,1326087,4
+378,Taguig_PH,Taguig,PH,Unknown,1308085,1
+380,Calgary_CA,Calgary,CA,Unknown,1306784,3
+383,Yaounde_CM,Yaounde,CM,Unknown,1299369,1
+391,Amman_JO,Amman,JO,Unknown,1275857,4
+393,Belgrade_RS,Belgrade,RS,Unknown,1273651,4
+400,Nizhniy_Novgorod_RU,Nizhniy Novgorod,RU,Unknown,1259013,3
